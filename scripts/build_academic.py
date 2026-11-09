@@ -1,4 +1,4 @@
-"""Build the LPU report, IEEE-style paper and editable viva presentation from real metrics.
+"""Build the LPU report, official IEEE SPS paper and editable viva presentation from real metrics.
 
 Run after run_experiments.py and make_figures.py. No dataset photos are embedded in
 public academic artifacts; examples remain available locally through the app.
@@ -6,7 +6,6 @@ public academic artifacts; examples remain available locally through the app.
 
 import json
 from pathlib import Path
-from xml.sax.saxutils import escape
 
 from docx import Document
 from docx.enum.section import WD_SECTION_START
@@ -14,26 +13,6 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
-from pptx import Presentation
-from pptx.chart.data import CategoryChartData
-from pptx.dml.color import RGBColor as PptColor
-from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION
-from pptx.util import Inches as PI
-from pptx.util import Pt as PP
-from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
-from reportlab.lib.pagesizes import A4
-from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import (
-    BaseDocTemplate,
-    Frame,
-    Image,
-    PageTemplate,
-    Paragraph,
-    Spacer,
-    Table,
-    TableStyle,
-)
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "outputs/academic"
@@ -397,7 +376,7 @@ def build_word(summary, abstract, sections):
             chapter_titles[3],
             [
                 "Functional requirements are explicit sketch-photo pairing, duplicate detection, frozen identity splits, model training, validation checkpoint selection, photo ranking, and rank-k reporting. The application must accept a query sketch and candidate photos, show an ordered shortlist, and export scores without presenting them as identity probabilities.",
-                "The implementation uses Python, PyTorch, torchvision, Pillow, NumPy, Matplotlib, and Streamlit. Training supports CUDA, Apple MPS, or CPU. Academic artifacts use python-docx, python-pptx, and reportlab. The repository includes a dependency lockfile, unit tests, deterministic split settings, saved model configurations, and provenance checks.",
+                "The implementation uses Python, PyTorch, torchvision, Pillow, NumPy, Matplotlib, and Streamlit. Training supports CUDA, Apple MPS, or CPU. Academic artifacts use python-docx, the official IEEE SPS LaTeX class, and the JavaScript artifact tool. The repository includes a dependency lockfile, unit tests, deterministic split settings, saved model configurations, and provenance checks.",
                 "The system consists of a data layer, paired-image dataset, cross-modal encoder, training/evaluation engine, metric module, command-line interface, and local demonstration interface. Dataset paths and model weights remain local. Public source includes experiment metrics and charts but excludes raw face images and the Python environment.",
                 "A 224 by 224 grayscale-RGB tensor is the input. A 256-dimensional normalized vector is the trained output. For N gallery photos, the query is compared with N embeddings. Gallery features are currently recomputed at each search; indexed caching is a possible extension.",
             ],
@@ -560,356 +539,26 @@ def build_word(summary, abstract, sections):
 
 
 def paper_pdf(summary, abstract, sections):
-    width, height = A4
-    margin, gap = 42, 18
-    column = (width - 2 * margin - gap) / 2
-    body = ParagraphStyle(
-        "Body",
-        fontName="Times-Roman",
-        fontSize=9.5,
-        leading=11.5,
-        alignment=TA_JUSTIFY,
-        spaceAfter=6,
-    )
-    heading = ParagraphStyle(
-        "Head",
-        parent=body,
-        fontName="Times-Bold",
-        fontSize=10,
-        alignment=TA_CENTER,
-        spaceBefore=8,
-        spaceAfter=5,
-        keepWithNext=True,
-    )
-    small = ParagraphStyle("Small", parent=body, fontSize=8, leading=9.5)
-    title = ParagraphStyle(
-        "Title", fontName="Times-Bold", fontSize=18, leading=21, alignment=TA_CENTER
-    )
-    doc = BaseDocTemplate(str(OUT / "research_paper.pdf"), pagesize=A4, title=TITLE, author=STUDENT)
+    """Compile with the official IEEE SPS class, never a hand-built imitation."""
+    from build_paper_latex import build
 
-    def header(canvas, document):
-        canvas.setFont("Times-Roman", 8)
-        canvas.drawCentredString(width / 2, 23, str(document.page))
-        if document.page == 1:
-            p = Paragraph(escape(TITLE), title)
-            _, h = p.wrap(width - 2 * margin, 80)
-            p.drawOn(canvas, margin, height - 42 - h)
-            canvas.setFont("Times-Roman", 10)
-            canvas.drawCentredString(width / 2, height - 105, STUDENT)
-            canvas.setFont("Times-Roman", 9)
-            canvas.drawCentredString(width / 2, height - 118, PROGRAMME)
-            canvas.drawCentredString(width / 2, height - 130, UNIVERSITY + ", Punjab, India")
-
-    def frames(top):
-        return [
-            Frame(
-                margin + i * (column + gap),
-                42,
-                column,
-                top - 42,
-                leftPadding=0,
-                rightPadding=0,
-                topPadding=0,
-                bottomPadding=0,
-            )
-            for i in range(2)
-        ]
-
-    doc.addPageTemplates(
-        [
-            PageTemplate(
-                id="First", frames=frames(height - 151), onPage=header, autoNextPageTemplate="Rest"
-            ),
-            PageTemplate(id="Rest", frames=frames(height - 42), onPage=header),
-        ]
-    )
-    story = [
-        Paragraph("<b>Abstract - </b>" + escape(abstract), body),
-        Paragraph(
-            "<b>Keywords - </b>Sketch-photo retrieval; cross-modal embeddings; CUFS; contrastive learning; rank-k.",
-            small,
-        ),
-    ]
-    for index, (name, paragraphs) in enumerate(sections):
-        story.append(Paragraph(escape(name), heading))
-        story.extend(Paragraph(escape(p), body) for p in paragraphs)
-        if index == 5:
-            story.append(Paragraph("TABLE I. TEST RETRIEVAL ACCURACY (37 PHOTOS)", small))
-            rows = [
-                [Paragraph(escape(cell), small) for cell in row] for row in metrics_table(summary)
-            ]
-            table = Table(rows, colWidths=[column * v for v in [0.38, 0.13, 0.16, 0.16, 0.17]])
-            table.setStyle(
-                TableStyle(
-                    [
-                        ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#edf3f5")),
-                        ("LINEBELOW", (0, 0), (-1, 0), 0.5, colors.grey),
-                        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
-                        ("LEFTPADDING", (0, 0), (-1, -1), 3),
-                        ("RIGHTPADDING", (0, 0), (-1, -1), 3),
-                    ]
-                )
-            )
-            story += [
-                table,
-                Spacer(1, 8),
-                Image(str(FIG / "cmc_comparison.png"), width=column, height=column * 4.2 / 7.2),
-                Paragraph(
-                    "Fig. 1. CMC on the same held-out gallery. The primary run is fixed as seed 42.",
-                    small,
-                ),
-            ]
-    story.append(Paragraph("References", heading))
-    story.extend(Paragraph(escape(p), small) for p in REFERENCES)
-    doc.build(story)
+    build()
 
 
 def build_slides(summary):
-    prs = Presentation()
-    prs.slide_width, prs.slide_height = PI(13.333), PI(7.5)
-    navy, teal, ink, muted = "122337", "087F8C", "1A2733", "526575"
+    """Build editable slides with the bundled JavaScript artifact runtime."""
+    import os
+    import subprocess
 
-    def textbox(slide, text, x, y, w, h, size=24, color=ink, bold=False):
-        shape = slide.shapes.add_textbox(PI(x), PI(y), PI(w), PI(h))
-        tf = shape.text_frame
-        tf.word_wrap = True
-        tf.margin_left = tf.margin_right = 0
-        for i, line in enumerate(text.split("\n")):
-            p = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
-            p.text = line
-            p.font.name = "Aptos"
-            p.font.size, p.font.bold, p.font.color.rgb = PP(size), bold, PptColor.from_string(color)
-            p.space_after = PP(16)
-        return shape
-
-    def slide(title, lines=None, note="", image=None):
-        s = prs.slides.add_slide(prs.slide_layouts[6])
-        s.background.fill.solid()
-        s.background.fill.fore_color.rgb = PptColor.from_string("FFFFFF")
-        textbox(s, title, 0.65, 0.45, 12.0, 1.0, 34, navy, True)
-        if lines:
-            textbox(s, "\n".join(lines), 0.7, 1.85, 11.9, 4.8, 25)
-        if image:
-            s.shapes.add_picture(str(FIG / image), PI(1.4), PI(1.7), width=PI(10.4), height=PI(5.0))
-        textbox(s, str(len(prs.slides)), 12.2, 7.05, 0.5, 0.3, 12, muted)
-        s.notes_slide.notes_text_frame.text = note
-        return s
-
-    s = prs.slides.add_slide(prs.slide_layouts[6])
-    s.background.fill.solid()
-    s.background.fill.fore_color.rgb = PptColor.from_string(navy)
-    textbox(s, "Sketch2Face", 0.75, 1.05, 11.5, 1.0, 52, "FFFFFF", True)
-    textbox(s, "Cross-modal face retrieval\nCUFS CUHK subset", 0.8, 2.3, 11.6, 1.6, 31, "BCE6E8")
-    textbox(
-        s,
-        STUDENT
-        + "  |  Roll: "
-        + ROLL
-        + "\n"
-        + PROGRAMME
-        + "\n"
-        + UNIVERSITY
-        + "  |  "
-        + YEARS
-        + "\nGuide: "
-        + GUIDE,
-        0.8,
-        4.65,
-        11.6,
-        2.2,
-        18,
-        "FFFFFF",
-    )
-    s.notes_slide.notes_text_frame.text = "Introduce the project as sketch-to-photo retrieval. Replace the two marked placeholders before submission. All numeric results come from completed local experiments."
-    slide(
-        "Problem and objective",
-        [
-            "Input: one face sketch and a gallery of candidate photos",
-            "Output: photos ranked by similarity to the person in the sketch",
-            "Challenge: preserve identity across pencil strokes and photographic appearance",
-            "Objective: build the matcher and measure rank-k retrieval accuracy",
-        ],
-        note="This is a retrieval project, not a face generation project. Training identities differ from test identities. Motivation is forensic search, but the evaluation uses viewed artist sketches.",
-    )
-    slide(
-        "Dataset audit",
-        [
-            "Full CUFS description: 606 identities across CUHK, AR, and XM2VTS",
-            "Downloaded mirror: 188 usable CUHK sketch-photo pairs",
-            "Extra unpaired sketches and duplicate original files were excluded",
-            "Every reported result is for the verified CUHK subset",
-        ],
-        note="Sources: references [1], [2], [6]. Official archive returned HTTP 500. Public mirror version 1 has 188 files in photos and 188 files in sketches. Archive checksum and mapping rules are in outputs/data_provenance.json.",
-    )
-    slide(
-        "Identity-disjoint evaluation",
-        [
-            "114 training identities: learn sketch-photo correspondence",
-            "37 validation identities: select the checkpoint",
-            "37 test identities: final held-out experiment",
-            "Each test sketch searches all 37 held-out photos",
-        ],
-        note="Split seed 42, one pair per identity, custom 60/20/20 split with floor rounding. Both images of each person stay in the same split. The correct photo is present by design: this is closed-set evaluation.",
-    )
-    s = slide(
-        "Model architecture",
-        note="ResNet-18: He et al. [3]. The adapters are residual 1x1 convolutions, zero-initialized. There are only 18 adapter parameters total. No face detector, landmark alignment, photo synthesis, or language model is used.",
-    )
-    rows = [
-        ["Stage", "Operation", "Output"],
-        ["Preprocessing", "Grayscale, resize, normalize", "3 x 224 x 224"],
-        ["Modality input", "Sketch or photo residual adapter", "3 x 224 x 224"],
-        ["Shared encoder", "ImageNet-pretrained ResNet-18", "512 features"],
-        ["Projection", "Linear, ReLU, Linear, normalize", "256-D embedding"],
-        ["Retrieval", "Cosine similarity to gallery", "Ranked photos"],
-    ]
-    native_table(s, rows, 0.7, 1.8, 11.9, 4.7)
-    slide(
-        "Paired contrastive learning",
-        [
-            "A batch contains sketches and photos of distinct paired identities",
-            "Correct sketch-photo pairs are positives; other people are negatives",
-            "Learn in both directions: sketch to photo and photo to sketch",
-            "L = 0.5 x [CE(S Pᵀ / τ) + CE(P Sᵀ / τ)],  τ = 0.07",
-        ],
-        note="The diagonal pair indices are the cross-entropy targets. S and P are L2-normalized embeddings. The symmetric paired objective follows the form used in CLIP [4]; no CLIP weights or text encoder are used. Similarity is not an identity probability.",
-    )
-    slide(
-        "Training and comparisons",
-        [
-            "20 epochs; batch size 32; AdamW optimization",
-            "Freeze backbone for 3 epochs, then fine-tune the final residual stage",
-            "Compare frozen baseline, trained matcher, and no-adapter ablation",
-            "Repeat matcher training with seeds 42, 43, and 44",
-        ],
-        note="Learning rates: 3e-4 projection/adapters and 3e-5 encoder; weight decay 1e-4. Frozen BatchNorm statistics. Checkpoint selection uses validation rank-1, then MRR. Primary seed fixed at 42. Test never selects the model. AdamW: [5].",
-    )
-    s = slide(
-        "Measured retrieval accuracy",
-        note="All values are percentages on the same 37-photo test gallery. Epoch is selected using validation. Source: outputs/results/summary.json. All predeclared runs are included.",
-    )
-    native_table(s, metrics_table(summary), 0.7, 1.8, 11.9, 4.4)
-    slide(
-        "CMC comparison",
-        image="cmc_comparison.png",
-        note="Source: actual CMC arrays in per-run metrics.json. CMC is the fraction of correct photos found by rank k. The primary model reaches 100 percent at rank 10 within this gallery; this does not predict accuracy on larger galleries.",
-    )
-    s = slide(
-        "Rank-k comparison",
-        note="Editable native PowerPoint chart. Source: outputs/results/summary.json. The primary model has higher rank-1, while the no-adapter ablation has higher rank-5. Both reach 100 percent rank-10 on these observed queries.",
-    )
-    data = CategoryChartData()
-    data.categories = ["Rank-1", "Rank-5", "Rank-10"]
-    for key, name in [
-        ("baseline", "Frozen baseline"),
-        ("matcher", "Trained matcher"),
-        ("shared_input", "Without adapters"),
-    ]:
-        data.add_series(
-            name,
-            [
-                summary["runs"][key]["overall"]["metrics"][f"rank_{k}"]["accuracy"] * 100
-                for k in (1, 5, 10)
-            ],
+    runtime = Path(
+        os.environ.get(
+            "ACADEMIC_RUNTIME",
+            "/Users/theashgen/.cache/codex-runtimes/codex-primary-runtime/dependencies",
         )
-    chart = s.shapes.add_chart(
-        XL_CHART_TYPE.COLUMN_CLUSTERED, PI(0.8), PI(1.75), PI(11.8), PI(4.9), data
-    ).chart
-    # python-pptx emits signed axis IDs; OOXML readers may require unsigned values.
-    for element in chart._chartSpace.iter():
-        if element.tag.rsplit("}", 1)[-1] in ("axId", "crossAx"):
-            value = int(element.get("val"))
-            if value < 0:
-                element.set("val", str(value + 2**32))
-    chart.has_legend = True
-    chart.legend.position = XL_LEGEND_POSITION.BOTTOM
-    chart.legend.font.size = PP(16)
-    chart.value_axis.minimum_scale, chart.value_axis.maximum_scale = 0, 100
-    chart.value_axis.tick_labels.font.size = PP(16)
-    chart.category_axis.tick_labels.font.size = PP(18)
-    for series, color in zip(chart.series, ["7B8794", teal, "C27A29"]):
-        series.format.fill.solid()
-        series.format.fill.fore_color.rgb = PptColor.from_string(color)
-    slide(
-        "What the experiments show",
-        [
-            "Primary rank-1: 27 correct queries out of 37 (72.97%)",
-            "Frozen baseline: 10 correct queries out of 37 (27.03%)",
-            "Paired rank-1 gain: 45.95 percentage points; 95% interval 27.03–64.86",
-            "Three-seed mean rank-1: 69.37% ± 3.12 percentage points",
-        ],
-        note="The gain interval uses 10000 paired query bootstrap samples. The ± quantity is sample standard deviation across three training seeds, not a confidence interval. The primary model recovers 19 baseline failures and loses two baseline successes.",
     )
-    slide(
-        "Adapter ablation and errors",
-        [
-            "Without adapters: 67.57% rank-1, 97.30% rank-5",
-            "Adapters improve primary rank-1, but reduce rank-5 in this comparison",
-            "Ten primary queries fail at rank 1; the hardest correct match is rank 10",
-            "One ablation seed does not establish a consistent adapter benefit",
-        ],
-        note="Source: summary.json and matcher/retrievals.json. Do not claim that the adapters explain all improvement. The safer finding is the benefit of the trained representation relative to generic frozen features. Demonstrate actual failures in the local app instead of embedding dataset photos in the public deck.",
+    subprocess.run(
+        [str(runtime / "node/bin/node"), str(ROOT / "scripts/build_presentation.mjs")], check=True
     )
-    slide(
-        "Learning curves",
-        image="learning_curves.png",
-        note="Source: runs/matcher/history.json copied into outputs/results/matcher/history.json. The dashed line separates warmup and layer-4 fine-tuning. The selected primary epoch is 20, at the training budget boundary, so optimal duration and convergence are not established.",
-    )
-    slide(
-        "Limitations",
-        [
-            "Only the CUHK subset; AR and XM2VTS pairs remain untested",
-            "Small closed-set gallery: 37 photos; no unknown-person rejection",
-            "Viewed artist sketches differ from eyewitness and composite sketches",
-            "No demographic fairness, forensic reliability, or state-of-the-art claim",
-        ],
-        note="Each test success changes accuracy by 2.70 percentage points. Bootstrap intervals condition on this fixed gallery. A 100 percent observed rank-10 result is not proof of perfect future retrieval. Pretraining identity overlap was not independently audited.",
-    )
-    slide(
-        "Demo and conclusion",
-        [
-            "Run: uv run streamlit run app.py",
-            "Select a held-out sketch, rank the gallery, and inspect the correct rank",
-            "Paired training substantially improves the measured frozen baseline",
-            "Next: full CUFS, larger galleries, repeated ablations, forensic datasets",
-        ],
-        note="The demo uses the exact evaluation preprocessing and model loader. In upload mode the user supplies candidate photos; the system cannot know whether the person is present. Scores are similarities only. Dataset and weights remain local; code, metrics, and documentation are reproducible from the public repository.",
-    )
-    slide(
-        "References",
-        [
-            "Wang & Tang, Photo-Sketch Synthesis and Recognition, TPAMI 2009",
-            "Zhang et al., Coupled Information-Theoretic Encoding, CVPR 2011",
-            "He et al., Deep Residual Learning, CVPR 2016",
-            "Radford et al., Contrastive multimodal learning, ICML 2021",
-            "Loshchilov & Hutter, AdamW, ICLR 2019; CUFS mirror, Kaggle v1",
-        ],
-        note="Full citations and access URLs:\n" + "\n".join(REFERENCES),
-    )
-    prs.save(OUT / "presentation.pptx")
-    notes = []
-    for i, s in enumerate(prs.slides, 1):
-        texts = [shape.text for shape in s.shapes if shape.has_text_frame]
-        notes += [f"## Slide {i} - {texts[0]}", s.notes_slide.notes_text_frame.text]
-    (OUT / "presentation_notes.md").write_text("\n\n".join(notes) + "\n")
-
-
-def native_table(slide, rows, x, y, width, height):
-    shape = slide.shapes.add_table(len(rows), len(rows[0]), PI(x), PI(y), PI(width), PI(height))
-    for i, row in enumerate(rows):
-        for j, text in enumerate(row):
-            cell = shape.table.cell(i, j)
-            cell.text = str(text)
-            cell.fill.solid()
-            cell.fill.fore_color.rgb = PptColor.from_string(
-                "122337" if i == 0 else ("EDF4F5" if i % 2 else "FFFFFF")
-            )
-            for paragraph in cell.text_frame.paragraphs:
-                paragraph.font.name = "Aptos"
-                paragraph.font.size = PP(19 if len(rows[0]) > 3 else 21)
-                paragraph.font.bold = i == 0
-                paragraph.font.color.rgb = PptColor.from_string("FFFFFF" if i == 0 else "1A2733")
 
 
 def main():
@@ -917,8 +566,8 @@ def main():
     summary = json.loads((ROOT / "outputs/results/summary.json").read_text())
     abstract, sections = content(summary)
     build_word(summary, abstract, sections)
-    paper_pdf(summary, abstract, sections)
     build_slides(summary)
+    paper_pdf(summary, abstract, sections)
     viva = [
         (
             "What does the project do?",

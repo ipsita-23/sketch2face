@@ -1,0 +1,310 @@
+% IEEE Conference Template v1.0 (2026/10/15)
+% Requires ieeeconf.cls v1.0.
+
+% Document class:
+%   Default: \documentclass{ieeeconf}  % 10pt, cameraready
+%
+% Modes:
+%   singleanonymous  review mode (authors visible, line numbers)
+%   doubleanonymous  review mode (authors hidden, line numbers)
+%   cameraready      camera-ready mode (authors visible) (default)
+%
+% Font size:
+%   Use 10pt (default). Use 9pt only if allowed by the conference.
+%
+% Hyperlinks:
+%   Hyperlinks are enabled by default. Use nohyperlinks to disable them if they cause compatibility or submission issues.
+%
+% Example:
+%   \documentclass[doubleanonymous]{ieeeconf}
+%   \documentclass[9pt,singleanonymous]{ieeeconf}
+
+\documentclass[9pt]{ieeeconf}
+
+%% Add packages here (several common packages are already included in the .sty file).
+% --------------------
+\usepackage{bm} % for bold math symbols (incl. Greek letters) with \bm{}
+\usepackage{siunitx}
+\robustify\bfseries
+\usepackage{booktabs}
+\usepackage[capitalize,nameinlink]{cleveref}
+\crefname{equation}{}{}
+\Crefname{equation}{Equation}{Equations}
+
+% Add definitions here.
+% --------------------
+\newcommand{\RR}{\mathbb{R}}
+
+
+\title{Author Guidelines for IEEE Conference Proceedings Manuscripts}
+
+% Authors:
+% Use \addauthor{Name}{affiliation ids}; affiliation ids must match those used in \addaffiliation.
+% Use \authorbreak to start a new line
+\addauthor{Author A}{1}
+\addauthor{Author B}{1,2}
+% \authorbreak
+\addauthor{Author C\thanks{An unnumbered footnote example.}}{3}
+\addauthor{Author D}{1}
+
+% Affiliations:
+% Use \addaffiliation{id}{text} (displayed marker will be affiliation id)
+% (Advanced) \addaffiliation{id}{marker}{text} can override the displayed marker (e.g., $\dagger$, etc).
+% Use an empty marker as \addaffiliation{id}{}{text} to suppress the marker entirely.
+\addaffiliation{1}{Affiliation 1, Address of Affiliation 1}
+\addaffiliation{2}{Affiliation 2, Address of Affiliation 2}
+% Use \affiliationbreak to start a new line if needed
+\affiliationbreak
+\addaffiliation{3}{Affiliation 3, Address of Affiliation 3}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+To help authors prepare their manuscripts for submission to IEEE conferences and generate IEEE Xplore-compatible PDFs, we compiled a list of guidelines and put together a \LaTeX\ template,
+which can be downloaded from the IEEE website at \url{https://www.ieee.org/conferences/publishing/templates}. 
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:intro}
+
+The guidelines below, including complete descriptions of the fonts, spacing, and related information for producing your proceedings manuscripts, are critical to produce IEEE conference proceedings with a more uniform look and IEEE Xplore-compatible PDFs.
+
+
+\section{Double-anonymous review}
+\label{sec:double_anonymous}
+
+Some conferences implement a double-anonymous review process, in which the authors' identities are hidden from the reviewers. If that is the case for the conference being submitted to, it is imperative that the authors ensure that they do not reveal their identity and affiliation in their manuscript. The manuscript submission should then be prepared using \texttt{\textbackslash{}documentclass[doubleanonymous]\{ieeeconf\}}, which will automatically remove the author and affiliation information. In a single-anonymous review process, please use \texttt{\textbackslash{}documentclass[singleanonymous]\{ieeeconf\}}. Both review modes will add line numbers for easy reference.
+
+To produce the camera-ready version if the paper is accepted, please use \texttt{\textbackslash{}documentclass[cameraready]\{ieeeconf\}} instead. This will include author and affiliation information. Note that the produced PDF will retain hyperlinks, which is useful for sharing as a preprint. After processing by PDF eXpress as described in \cref{sec:PDF_express_Copyright}, the hyperlinks will be automatically removed as required by IEEE Xplore.
+
+
+\section{PDF eXpress and Electronic Copyright Form}
+\label{sec:PDF_express_Copyright}
+
+Accepted papers must pass the IEEE PDF eXpress$^{\text{TM}}$ format verification and require a completed IEEE Electronic Copyright Form (eCF) prior to publication \cite{IEEEXploreReqs}. Please follow the instructions of the conference organizers.
+
+
+\section{General formatting instructions}
+\label{sec:format}
+
+\subsection{Mandatory use of the template}
+\label{sec:template}
+
+All manuscripts should be prepared using the provided \LaTeX\ template and submitted electronically as PDF files. This \LaTeX\ template is the only accepted template. In particular, Microsoft Word is no longer accepted.
+
+Users should not modify page geometry, margins, column widths, font sizes, or spacing parameters; these are enforced by the class.
+
+This new \LaTeX\ template is by default very tight. Vertical spacing around sections, subsections, equations, figures, tables, and captions was tuned to be small by default, and we thus highly discourage the use of \texttt{\textbackslash{vspace}} and similar space-altering commands. 
+
+\subsection{Page Limits and Permitted Content}
+\label{sec:pagelimit}
+
+Many conferences enforce strict page limits on technical content, while allowing additional pages for certain types of material, such as references, acknowledgments, or appendices. For example, a conference may permit up to M pages of technical content, followed by up to N additional pages containing only specified types of material. Some conferences may allow an unlimited number of such additional pages.
+
+Documents exceeding the applicable page limits, or containing material not permitted on additional pages, may be rejected.
+
+Please follow the specific instructions of the conference to which you are submitting regarding page limits and the content permitted on additional pages.
+
+
+\subsection{Paper size, margins, and column width}
+\label{sec:sizes}
+
+All manuscripts must be formatted for white US-letter paper (8.5 $\times$ 11 inches), as enforced by this template. All printed material, including text, illustrations, and charts, must be kept within a print area of 7.14 inches (181.35 mm) wide by 9.32 inches (236.85 mm) high. Do not write or print anything outside the print area. The top margin from the edge of the paper to the top of a capital T on the first line of text is set to 0.71 inch (18.1 mm), except for the title page (see \cref{sec:titleauthor}), the bottom margin is set to 1.05 inch (26.6 mm), the left and right margin are set to 0.68 inch (17.3 mm). All {\it text} must be in a two-column format. Columns are 3.487 inches (88.57 mm) wide, with a 0.166 inch (4.22 mm) space between them. Text is fully justified.
+
+\subsection{Title and author block}
+\label{sec:titleauthor}
+
+The paper title (on the first page) begins 0.949 inches, or 24.10 mm, from the edge of the page if using 9pt font (0.984 inches, or 25.00 mm, if using 10pt font). It is centered, in Title Case, and in Times regular (non-bold) type. The authors' names and affiliations appear below the title in capital and lowercase letters (i.e., with their customary capitalization). The authors' names are italicized, and the affiliations upright (non-italicized). If using the 9pt font option for the text, the title is 17pt, the authors 12pt, and the affiliations 10pt. If using the 10pt font option, the title is 20pt, the authors 14pt, and the affiliations 12pt.
+Papers with multiple authors and affiliations may require two or more lines for this information.
+
+If your title contains math, use \verb|\texorpdfstring| to provide a plain-text equivalent for the PDF title metadata and avoid PDF-string warnings.
+
+\subsection{Type-style and fonts}
+\label{sec:typestyle}
+
+This template uses Times Roman font, in either 10pt type (the default setting) for the body text, or 9pt type font by using the \texttt{9pt} option when loading the document class. Note that the abstract, figure captions, and tables are in 8pt font in both cases.
+
+In 9pt type font, capital letters are 2 mm high. If you use the 9pt size, the interline spacing (i.e., \texttt{\textbackslash{baselineskip}}) is 3.9 mm (0.153 inch), and there is thus no more than 2.57 lines/cm (6.54 lines/inch) vertically. This is a minimum spacing. The 10pt type size uses correspondingly larger vertical spacing.
+
+The first paragraph in each section is not indented, but all the following paragraphs within the section are indented, as these paragraphs demonstrate.
+
+\subsection{Page numbering}
+\label{sec:page}
+
+Please do {\bf not} paginate your paper. Page numbers, session numbers, and conference identification will be inserted when the paper is included in the proceedings.
+
+
+\section{Major headings}
+\label{sec:majhead}
+
+Major headings, for example, ``{\bf 1. Introduction}'', should appear in lower case (initial word capitalized), in bold face, flush left, in 10pt font for the 9pt document option and in 12pt font for the 10pt document option. Vertical spacing before the heading should be between 0.055 inches and 0.166 inches for the 9pt document option, and between 0.062 inches and 0.187 inches for the 10pt document option; vertical spacing after the heading should be between 0.039 inches and 0.094 inches for the 9pt document option, and between 0.044 inches and 0.106 inches for the 10pt document option. A period (``.'') is used after the heading number. Sections can be referenced using \cref{sec:majhead}, \cref{ssec:subhead}, and \cref{sssec:subsubhead}.
+
+\subsection{Subheadings}
+\label{ssec:subhead}
+
+Subheadings should appear in lowercase (initial word capitalized), in bold face, in 9pt font for the 9pt document option and in 10pt font for the 10pt document option. They should start at the left margin on a separate line. Vertical spacing before the subheading should be between 0.042 inches and 0.138 inches for the 9pt document option, and between 0.047 inches and 0.156 inches for the 10pt document option.
+
+\subsubsection{Sub-subheadings}
+\label{sssec:subsubhead}
+
+Sub-subheadings, as in this paragraph, are discouraged. However, if you must use them, they should appear in lower case (initial word capitalized), indented, with the paragraph text following on the same line, after a semi-colon. The sub-subheadings should be in italics, in 9pt font for the 9pt document option and in 10pt font for the 10pt document option.
+
+\subsubsection{Sub-subheadings should never be alone}
+\label{sssec:subsubhead2}
+
+There should never be a unique sub-subsection within a subsection.
+
+\subsection{Subheadings also should never be alone}
+\label{ssec:subhead2}
+
+There should never be a unique subsection within a section.
+
+
+\section{Figures}
+\label{sec:illust}
+
+An example of how to include images (e.g., with experimental results) is presented in \cref{fig:results}. \Cref{fig:results} should be used at the beginning of a sentence, and \cref{fig:results} otherwise.
+
+% Below is an example of how to insert images.
+% -------------------------------------------------------------------------
+\begin{figure}[t]
+  \centering
+  \centerline{\includegraphics[width=\columnwidth]{fig1}}
+  \caption{Example of a figure with experimental results, where the caption is long and wraps on the next line.}
+  \label{fig:results}
+\end{figure}
+
+Illustrations must appear within the designated margins. They may span the two columns. If possible, position illustrations at the top of columns, rather than in the middle or at the bottom. Caption and number every illustration, with the caption and number always appearing \textbf{below} the figure, in 8pt font. Colors may be used, but they should be selected so as to be readable when printed on a black-only printer, or markers and line styles should be used to make figures readable without relying on colors.
+
+
+\section{Tables}
+\label{sec:tables}
+
+Table captions and numbers should be placed above the table, as in \cref{tab:table1}, in 8pt font. The usage of the \texttt{booktabs} package for pretty tables and the \texttt{siunitx} package to properly format and align numbers in table columns is highly encouraged.
+
+% Below is an example showing how to insert tables.
+% -------------------------------------------------------------------------
+\begin{table}[t]
+\centering
+\caption{Some experimental results with SI-SNR in [dB] and WER in [\%], in a well-formatted table without unnecessary and unsightly vertical lines.}
+\label{tab:table1}
+\sisetup{
+    reset-text-series = false, 
+    text-series-to-math = true, 
+    mode=text,
+    tight-spacing=true,
+    round-mode=places,
+    round-precision=2,
+    table-format=2.2,
+    table-number-alignment=center
+}
+\begin{tabular}{l*{2}{S[round-precision=1,table-format=2.1]S}}
+    \toprule
+    & \multicolumn{2}{c}{\textbf{Dataset A}} & \multicolumn{2}{c}{\textbf{Dataset B}}\\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    & {SI-SNR $\uparrow$}& {WER $\downarrow$} & {SI-SNR $\uparrow$}& {WER $\downarrow$}\\
+    \midrule
+    No Processing &            0.0 &           98.76 &            0.0 &           87.65 \\
+    \midrule
+    Baseline      &            3.2 &           54.32 &            4.3 &           43.21 \\
+    Proposed      & \bfseries 12.3 & \bfseries 10.98 & \bfseries 23.4 & \bfseries 1.23 \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+
+\section{Equations}
+\label{sec:equations}
+
+Equations should be placed on separate lines and consecutively numbered with equation numbers in parentheses flush with the right margin, as illustrated in \cref{eq:wave_equation}, which gives the homogeneous acoustic wave equation in Cartesian coordinates \cite{eWilliams1999},
+\begin{equation}
+  \label{eq:wave_equation}
+    \Delta^2p(\bm{x},t)-
+    \displaystyle\frac{1}{c^2}\frac{\partial^2p(\bm{x},t)}{\partial t^2}=0,
+\end{equation}
+where $p(\bm{x},t)$ is an infinitesimal variation of acoustic pressure from its equilibrium value at position $\bm{x}\in\RR^3$ and time $t$, and where $c$ denotes the speed of sound.
+
+Symbols in your equation should be defined before the equation appears or immediately following.  Use \cref{eq:wave_equation}, not Eq.~(1) or equation (1), except at the beginning of a sentence: ``\Cref{eq:wave_equation} is ...''
+
+
+\section{Footnotes}
+\label{sec:foot}
+
+Use footnotes sparingly\footnote{or not at all!} and place them at the bottom of the column on the page on which they are referenced. Footnotes should be in Times 8pt font. To help your readers, avoid using footnotes altogether and include necessary peripheral observations in the text (within parentheses, if you prefer, as in this sentence).
+
+
+\section{References}
+\label{sec:ref}
+
+List and number all bibliographical references at the end of the paper. The references should be numbered in order of appearance in the document. When referring to them in the text, type the corresponding reference number in square brackets as in \cite{cJones2026,aSmith2026} or \cite{eWilliams1999,cJones2026,aSmith2026}. The use of the Bib\TeX\ style file IEEEtran.bst included with this template is recommended.
+
+
+% Acknowledgments section
+\begin{acknowledgments}
+Try to avoid the stilted expression, ``One of us (R.\ B.\ G.) thanks ...'' Instead, try ``R.\ B.\ G.\ thanks ...''  Put sponsor acknowledgments in the unnumbered footnote on the first page. Please include acknowledgments only in the camera-ready version, and NOT in the version of the paper submitted for review (the class will take care of this in \LaTeX).
+\end{acknowledgments}
+
+% -------------------------------------------------------------------------
+% Either list references using the bibliography style file IEEEtran.bst:
+
+% \clearpage
+% The \IEEEtriggeratref{XX} command can be used to move to the next column before the XX-th reference
+% to balance the two columns of the reference section
+% \IEEEtriggeratref{XX}
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+
+% or list them by yourself:
+% \begin{thebibliography}{1}
+
+% \bibitem{IEEEXploreReqs}
+% {IEEE {X}plore {R}equirements}, \url{https://conferences.ieeeauthorcenter.ieee.org/write-your-paper/meet-ieee-xplore-requirements/}.
+
+% \bibitem{eWilliams1999}
+% E.~Williams, \emph{Fourier Acoustics: Sound Radiation and Nearfield Acoustic Holography}.\hskip 1em plus 0.5em minus 0.4em\relax London, UK: Academic Press, 1999.
+
+% \bibitem{cJones2026}
+% C.~Jones, A.~Smith, and E.~Roberts, ``A sample paper in conference proceedings,'' in \emph{Proc. ICASSP}, May 2026.
+
+% \bibitem{aSmith2026}
+% A.~Smith, C.~Jones, and E.~Roberts, ``A sample paper in journals,'' \emph{IEEE Trans. Signal Process.}, vol.~74, pp.~1--4, Jan.\ 2026.
+
+% \end{thebibliography}
+
+% Use \section{} to create lettered appendix sections (A, B, etc.).
+% If no separate sections are needed, place the appendix text
+% directly after \appendix.
+\appendix
+
+\section{Appendix Policies}
+\label{sec:appendix_policies}
+
+Appendices may be included only if permitted by the conference
+or workshop to which the paper is being submitted. Authors must
+follow the conference-specific instructions regarding the
+permitted content and page limits for appendices.
+
+The main paper must be self-contained, with sufficient information
+to understand the proposed approach, evaluate the results, and
+assess the main claims without consulting the appendix. Reviewers
+are not necessarily expected to read the appendix, so authors
+should not rely on material presented only in the appendix to
+substantiate the paper's main claims or address potential concerns
+during the review process.
+
+\section{Recommended Appendix Content}
+\label{sec:appendix_content}
+
+The appendix should primarily support reproducibility and provide
+supplementary details, such as hyperparameter settings, extended
+derivations, prompts, and additional examples that are not
+essential to understanding the main paper. Essential methodological
+details and derivations should remain in the main paper.
+
+
+\end{document}

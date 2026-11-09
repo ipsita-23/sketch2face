@@ -1,0 +1,17 @@
+{
+  "template_url": "https://www.overleaf.com/latex/templates/ieee-signal-processing-society-conference-and-workshop-template/xdqvgfmfghwj",
+  "retrieved_date": "2026-11-09",
+  "template_version_id": "53265",
+  "template_id": "283735593",
+  "source_header": "IEEE Conference Template v1.0 (2026/10/15)",
+  "license_as_listed": "LaTeX Project Public License 1.3c",
+  "main_source_extraction": "HTML modalViewSource pre code, HTML entity decoded",
+  "template_main_sha256": "3e7efb85e52d0f9f67ec940371dccb7206c59eff849bb1119c0dfecd8be49c6f",
+  "official_class_obtained": false,
+  "compiled_with_official_class": false,
+  "requested_class_options": [
+    "cameraready"
+  ],
+  "font_size": "10pt class default",
+  "results_summary_sha256": "e0f655910e4e4f13c75a61c9f2165935906a170de16e069f40788dbb4c2495f9"
+}

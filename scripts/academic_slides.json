@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Sketch2Face",
+    "lines": [
+      "Cross-modal face retrieval\nCUFS CUHK subset"
+    ],
+    "note": "Introduce the project as sketch-to-photo retrieval. Replace the two marked placeholders before submission. All numeric results come from completed local experiments."
+  },
+  {
+    "title": "Problem and objective",
+    "lines": [
+      "Input: one face sketch and a gallery of candidate photos\nOutput: photos ranked by similarity to the person in the sketch\nChallenge: preserve identity across pencil strokes and photographic appearance\nObjective: build the matcher and measure rank-k retrieval accuracy"
+    ],
+    "note": "This is a retrieval project, not a face generation project. Training identities differ from test identities. Motivation is forensic search, but the evaluation uses viewed artist sketches."
+  },
+  {
+    "title": "Dataset audit",
+    "lines": [
+      "Full CUFS description: 606 identities across CUHK, AR, and XM2VTS\nDownloaded mirror: 188 usable CUHK sketch-photo pairs\nExtra unpaired sketches and duplicate original files were excluded\nEvery reported result is for the verified CUHK subset"
+    ],
+    "note": "Sources: references [1], [2], [6]. Official archive returned HTTP 500. Public mirror version 1 has 188 files in photos and 188 files in sketches. Archive checksum and mapping rules are in outputs/data_provenance.json."
+  },
+  {
+    "title": "Identity-disjoint evaluation",
+    "lines": [
+      "114 training identities: learn sketch-photo correspondence\n37 validation identities: select the checkpoint\n37 test identities: final held-out experiment\nEach test sketch searches all 37 held-out photos"
+    ],
+    "note": "Split seed 42, one pair per identity, custom 60/20/20 split with floor rounding. Both images of each person stay in the same split. The correct photo is present by design: this is closed-set evaluation."
+  },
+  {
+    "title": "Model architecture",
+    "lines": [],
+    "note": "ResNet-18: He et al. [3]. The adapters are residual 1x1 convolutions, zero-initialized. There are only 18 adapter parameters total. No face detector, landmark alignment, photo synthesis, or language model is used."
+  },
+  {
+    "title": "Paired contrastive learning",
+    "lines": [
+      "A batch contains sketches and photos of distinct paired identities\nCorrect sketch-photo pairs are positives; other people are negatives\nLearn in both directions: sketch to photo and photo to sketch\nL = 0.5 x [CE(S P\u1d40 / \u03c4) + CE(P S\u1d40 / \u03c4)],  \u03c4 = 0.07"
+    ],
+    "note": "The diagonal pair indices are the cross-entropy targets. S and P are L2-normalized embeddings. The symmetric paired objective follows the form used in CLIP [4]; no CLIP weights or text encoder are used. Similarity is not an identity probability."
+  },
+  {
+    "title": "Training and comparisons",
+    "lines": [
+      "20 epochs; batch size 32; AdamW optimization\nFreeze backbone for 3 epochs, then fine-tune the final residual stage\nCompare frozen baseline, trained matcher, and no-adapter ablation\nRepeat matcher training with seeds 42, 43, and 44"
+    ],
+    "note": "Learning rates: 3e-4 projection/adapters and 3e-5 encoder; weight decay 1e-4. Frozen BatchNorm statistics. Checkpoint selection uses validation rank-1, then MRR. Primary seed fixed at 42. Test never selects the model. AdamW: [5]."
+  },
+  {
+    "title": "Measured retrieval accuracy",
+    "lines": [],
+    "note": "All values are percentages on the same 37-photo test gallery. Epoch is selected using validation. Source: outputs/results/summary.json. All predeclared runs are included."
+  },
+  {
+    "title": "CMC comparison",
+    "lines": [],
+    "note": "Source: actual CMC arrays in per-run metrics.json. CMC is the fraction of correct photos found by rank k. The primary model reaches 100 percent at rank 10 within this gallery; this does not predict accuracy on larger galleries."
+  },
+  {
+    "title": "Rank-k comparison",
+    "lines": [],
+    "note": "Editable native PowerPoint chart. Source: outputs/results/summary.json. The primary model has higher rank-1, while the no-adapter ablation has higher rank-5. Both reach 100 percent rank-10 on these observed queries."
+  },
+  {
+    "title": "What the experiments show",
+    "lines": [
+      "Primary rank-1: 27 correct queries out of 37 (72.97%)\nFrozen baseline: 10 correct queries out of 37 (27.03%)\nPaired rank-1 gain: 45.95 percentage points; 95% interval 27.03\u201364.86\nThree-seed mean rank-1: 69.37% \u00b1 3.12 percentage points"
+    ],
+    "note": "The gain interval uses 10000 paired query bootstrap samples. The \u00b1 quantity is sample standard deviation across three training seeds, not a confidence interval. The primary model recovers 19 baseline failures and loses two baseline successes."
+  },
+  {
+    "title": "Adapter ablation and errors",
+    "lines": [
+      "Without adapters: 67.57% rank-1, 97.30% rank-5\nAdapters improve primary rank-1, but reduce rank-5 in this comparison\nTen primary queries fail at rank 1; the hardest correct match is rank 10\nOne ablation seed does not establish a consistent adapter benefit"
+    ],
+    "note": "Source: summary.json and matcher/retrievals.json. Do not claim that the adapters explain all improvement. The safer finding is the benefit of the trained representation relative to generic frozen features. Demonstrate actual failures in the local app instead of embedding dataset photos in the public deck."
+  },
+  {
+    "title": "Learning curves",
+    "lines": [],
+    "note": "Source: runs/matcher/history.json copied into outputs/results/matcher/history.json. The dashed line separates warmup and layer-4 fine-tuning. The selected primary epoch is 20, at the training budget boundary, so optimal duration and convergence are not established."
+  },
+  {
+    "title": "Limitations",
+    "lines": [
+      "Only the CUHK subset; AR and XM2VTS pairs remain untested\nSmall closed-set gallery: 37 photos; no unknown-person rejection\nViewed artist sketches differ from eyewitness and composite sketches\nNo demographic fairness, forensic reliability, or state-of-the-art claim"
+    ],
+    "note": "Each test success changes accuracy by 2.70 percentage points. Bootstrap intervals condition on this fixed gallery. A 100 percent observed rank-10 result is not proof of perfect future retrieval. Pretraining identity overlap was not independently audited."
+  },
+  {
+    "title": "Demo and conclusion",
+    "lines": [
+      "Website: http://localhost:8000\nUpload a sketch and candidate photos, then inspect the ranked results\nPaired training improves the measured frozen baseline\nNext: full CUFS, larger galleries, repeated ablations, forensic datasets"
+    ],
+    "note": "Launch: uv run uvicorn sketch2face.web:app --host 127.0.0.1 --port 8000. Open http://localhost:8000. The FastAPI backend and responsive HTML/CSS/JavaScript frontend accept actual image uploads and execute real model retrieval. Upload one query sketch and candidate photographs, run retrieval, inspect rank and similarity, and explain that the correct person may be absent. This upload workflow has no independently measured forensic accuracy. Streamlit remains a legacy optional interface. Never present cosine similarity as identity probability. Use local, authorized face data for demonstrations; no dataset faces are embedded in this public deck."
+  },
+  {
+    "title": "References",
+    "lines": [
+      "Wang & Tang, Photo-Sketch Synthesis and Recognition, TPAMI 2009\nZhang et al., Coupled Information-Theoretic Encoding, CVPR 2011\nHe et al., Deep Residual Learning, CVPR 2016\nRadford et al., Contrastive multimodal learning, ICML 2021\nLoshchilov & Hutter, AdamW, ICLR 2019; CUFS mirror, Kaggle v1"
+    ],
+    "note": "Full citations and access URLs:\n[1] X. Wang and X. Tang, \"Face Photo-Sketch Synthesis and Recognition,\" IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 31, no. 11, pp. 1955-1967, 2009. doi:10.1109/TPAMI.2008.222.\n[2] W. Zhang, X. Wang, and X. Tang, \"Coupled Information-Theoretic Encoding for Face Photo-Sketch Recognition,\" IEEE CVPR, pp. 513-520, 2011.\n[3] K. He, X. Zhang, S. Ren, and J. Sun, \"Deep Residual Learning for Image Recognition,\" IEEE CVPR, pp. 770-778, 2016. https://arxiv.org/abs/1512.03385.\n[4] A. Radford et al., \"Learning Transferable Visual Models From Natural Language Supervision,\" ICML, PMLR 139, pp. 8748-8763, 2021. https://arxiv.org/abs/2103.00020.\n[5] I. Loshchilov and F. Hutter, \"Decoupled Weight Decay Regularization,\" ICLR, 2019. https://arxiv.org/abs/1711.05101.\n[6] Arbaz Khan, \"CUHK Face Sketch Database (CUFS),\" Kaggle public mirror, version 1, updated October 8, 2020; accessed November 9, 2026. https://www.kaggle.com/datasets/arbazkhan971/cuhk-face-sketch-database-cufs. Data rights retained by original authors."
+  }
+]
