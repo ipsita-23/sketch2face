@@ -19,6 +19,10 @@ Across three training seeds, rank-1 averages **69.37% ± 3.12 percentage points*
 
 Download the [college report](outputs/academic/project_report.pdf), [IEEE-style paper](outputs/academic/research_paper.pdf), [presentation](outputs/academic/presentation.pptx), and [viva guide](outputs/academic/viva_guide.md). Editable Word files and presentation speaker notes are in [the academic folder](outputs/academic).
 
+## Watch the website demo
+
+[Watch the captioned demo video](docs/demo/sketch2face-demo.mp4) · [Demo walkthrough and recording notes](docs/demo/README.md). The video shows sample search, sketch upload, a custom photo gallery, ranked results, and JSON export. Dataset images are hidden in the public copy; the full local copy is at `tmp/demo/sketch2face-demo-full.mp4`.
+
 ## Run the website
 
 Python 3.11–3.13 is required. The current workspace contains the dataset, trained checkpoints, and experiment outputs after the experiment script completes.
