@@ -1,0 +1,25 @@
+{
+  "downloaded_at_utc": "2026-11-09T11:02:10.475657+00:00",
+  "url": "https://www.kaggle.com/api/v1/datasets/download/arbazkhan971/cuhk-face-sketch-database-cufs",
+  "metadata_url": "https://www.kaggle.com/api/v1/datasets/view/arbazkhan971/cuhk-face-sketch-database-cufs",
+  "version": 1,
+  "archive_sha256": "9c06cec0c4792c1c604f357e8da056d558ff0969ebc3efb860318d0f603e2399",
+  "license": "Data files \u00a9 Original Authors",
+  "extracted_pairs": 188,
+  "source": "CUHK",
+  "advertised_full_cufs_pairs": 606,
+  "full_cufs_available": false,
+  "archive_folder_counts": {
+    "cropped_sketch": 1194,
+    "original_sketch": 1194,
+    "photo": 376,
+    "photo_points": 1194,
+    "photos": 188,
+    "sketch": 188,
+    "sketch_points": 1194,
+    "sketches": 188
+  },
+  "exclusions": "Original-resolution duplicate CUHK files and 1194 unpaired cropped/original sketches excluded. AR and XM2VTS photo pairs absent.",
+  "identity_mapping": "Case-insensitive; remove trailing -sz1; F2-/M2- maps to f-/m-. f1-/m1- unchanged.",
+  "note": "Original authors retain data rights. Public mirror availability is not a redistribution license. Research use only; do not commit or redistribute images."
+}

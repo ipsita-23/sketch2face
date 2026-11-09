@@ -1,0 +1,1897 @@
+{
+  "schema_version": 1,
+  "dataset": "CUFS CUHK subset (188 identities)",
+  "seed": 42,
+  "fractions": {
+    "val": 0.2,
+    "test": 0.2
+  },
+  "fingerprint": "34f06671f50fba99fe89dda92c0dd066f3972291a20570e26aa46c72e224a41b",
+  "rows": [
+    {
+      "identity": "f-005-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-005-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-005-01.jpg",
+      "uid": "CUHK:f-005-01",
+      "sketch_sha256": "058734d71fc8d4b1f1954f8aae7a215a8c83796c4805f4b2612755569914262c",
+      "photo_sha256": "b78f0e141c270e33f3646c2cf548ada259011a9ee1a9434781b8f9b50c86c403",
+      "split": "test"
+    },
+    {
+      "identity": "f-006-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-006-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-006-01.jpg",
+      "uid": "CUHK:f-006-01",
+      "sketch_sha256": "19b1f4b5bc76beb8ca33c724b07543046738d73def691b3e182ca7fdb97d6aa3",
+      "photo_sha256": "53cb0147eb7848250303b7d516c9ebc395a4d90cafba91313bd165e44c46e7f1",
+      "split": "train"
+    },
+    {
+      "identity": "f-007-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-007-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-007-01.jpg",
+      "uid": "CUHK:f-007-01",
+      "sketch_sha256": "bc5c35a41b97b8a97fde994f98a47031b846f1c7c0b414d9f606972d9baee705",
+      "photo_sha256": "ae2299357c99d0ba9957c679799015b81f26e6999c406a0c520499d744a37cb2",
+      "split": "val"
+    },
+    {
+      "identity": "f-008-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-008-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-008-01.jpg",
+      "uid": "CUHK:f-008-01",
+      "sketch_sha256": "f7c0334d16fe0238a4a9c8f6001b209bf889d9da34087fd532de630ad5ce312d",
+      "photo_sha256": "5bf68cbe5e55c4c8f1f92c01d7f46351f27c6ca32b959839b691006dc46139ff",
+      "split": "val"
+    },
+    {
+      "identity": "f-009-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-009-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-009-01.jpg",
+      "uid": "CUHK:f-009-01",
+      "sketch_sha256": "ea23b890c78fa154520f73588ffec54b11dbdde2ecf3047f0324dc411175d0e3",
+      "photo_sha256": "64d03d05fff213fd490f0022439fcb87ef851b46e1374676c2f0d2644721010a",
+      "split": "train"
+    },
+    {
+      "identity": "f-010-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-010-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-010-01.jpg",
+      "uid": "CUHK:f-010-01",
+      "sketch_sha256": "0cfa5621b0e3ef6f4a22b515109b5532dfe9e4c4ef017ad074e1c5bde56955c9",
+      "photo_sha256": "c91e4ee1462090a61bffb28db50c65b530826a93a8775f5f722c0017f1773f8f",
+      "split": "val"
+    },
+    {
+      "identity": "f-011-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-011-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-011-01.jpg",
+      "uid": "CUHK:f-011-01",
+      "sketch_sha256": "e2ea8cc6e89b258cfbb6bb7544ddf93e7c292ff94781090435f93905cdf98833",
+      "photo_sha256": "0b6c03ce3e58521d27a2567a5077eddc35a9184f7d40fae20a06739bd368f722",
+      "split": "train"
+    },
+    {
+      "identity": "f-012-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-012-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-012-01.jpg",
+      "uid": "CUHK:f-012-01",
+      "sketch_sha256": "b77cceb520025677cab0d24a1c2c52957a0001003f1c5f2bf6acdc1c525ee9a1",
+      "photo_sha256": "812ffdb2d8e49dd13d04f3efe709104f7a68315a04f2c3d3859771e0cc1102b6",
+      "split": "train"
+    },
+    {
+      "identity": "f-013-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-013-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-013-01.jpg",
+      "uid": "CUHK:f-013-01",
+      "sketch_sha256": "53a6748b0a32ab01c138038bb7b19480f9dbaee982ded58faad631f453e77fd5",
+      "photo_sha256": "ad3c602718dad5148d1c61251228f20243babbdbc0042d50a5b718c434eb8817",
+      "split": "train"
+    },
+    {
+      "identity": "f-014-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-014-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-014-01.jpg",
+      "uid": "CUHK:f-014-01",
+      "sketch_sha256": "394f8c9093cccf0b9d48f32bbbe76c1d64e0454d89813e1a1c8d3aa0048e722f",
+      "photo_sha256": "ea9bcf03042720041a82ebeea13910e7e622babb604c349bbf2ba0a033994f6f",
+      "split": "train"
+    },
+    {
+      "identity": "f-015-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-015-01.jpg",
+      "uid": "CUHK:f-015-01",
+      "sketch_sha256": "e3d7a4c9bd95cbcbd82db4f1925e1b913a1a49e3706bdf725de76652588f308f",
+      "photo_sha256": "034044f8b97ad1c10b5395780fbe581ca6eed6123aacbf126f55298d6cea0862",
+      "split": "test"
+    },
+    {
+      "identity": "f-016-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-016-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-016-01.jpg",
+      "uid": "CUHK:f-016-01",
+      "sketch_sha256": "384cbf13deebf4ba330978074e65d2e5d76761a00de1f56af15e6981e30ceaf0",
+      "photo_sha256": "f36cf2f030e67b70f13a8b3f804c6fb086959bc47e6ed669a6e4a58b0487639b",
+      "split": "train"
+    },
+    {
+      "identity": "f-017-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-017-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-017-01.jpg",
+      "uid": "CUHK:f-017-01",
+      "sketch_sha256": "c47f06cc1983f5c97d7a162a55a13e5152d5cea935d8913b1192bf335b97e331",
+      "photo_sha256": "3e65a30bff510307172790758f3f29a3ee7f9b792f1289c9ec1eff84ac833ca9",
+      "split": "val"
+    },
+    {
+      "identity": "f-018-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-018-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-018-01.jpg",
+      "uid": "CUHK:f-018-01",
+      "sketch_sha256": "873ecff2b5cda0f6623cb9a38783eeddbc721972e2727004e23a1eb9d8ae58fb",
+      "photo_sha256": "e77ba31ff77bfe093b1fedd3a30287517d592546fd877242d2efa0b00fc65fa0",
+      "split": "val"
+    },
+    {
+      "identity": "f-019-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-019-01.jpg",
+      "uid": "CUHK:f-019-01",
+      "sketch_sha256": "86cda9b8259c4a2a1dd88e304655c8d85a24a46b5650f7039cb293a443670a84",
+      "photo_sha256": "45588212b6472cd9d785dfc9454a8d94886024ff870d4105a440a673c6e6ce4f",
+      "split": "test"
+    },
+    {
+      "identity": "f-020-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-020-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-020-01.jpg",
+      "uid": "CUHK:f-020-01",
+      "sketch_sha256": "28ef77d7edcb8461b335308e20f563030bc0ab49f53a971273e1235fad0eb4e1",
+      "photo_sha256": "800041a1dcc31ab116ef89ae218677814b5fdfd2ba967e7e259bf904826f7828",
+      "split": "val"
+    },
+    {
+      "identity": "f-021-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-021-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-021-01.jpg",
+      "uid": "CUHK:f-021-01",
+      "sketch_sha256": "8db62619b77df765ea49df428223193acc84676985a12194c89b0cc01611c1c4",
+      "photo_sha256": "9f6645361fa4d79dbf1d7c1510a97d0d8e4da629b97a28b06496d881707a2b7e",
+      "split": "test"
+    },
+    {
+      "identity": "f-022-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-022-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-022-01.jpg",
+      "uid": "CUHK:f-022-01",
+      "sketch_sha256": "cfb103b4664407e7058f6367ff7160c6ad481d179115ab923bc9b5cc5ee6af5a",
+      "photo_sha256": "ff5c53ddf0d93149adb8532e7a20efa29815902fbf3d8146a24ecfd4f5e63553",
+      "split": "train"
+    },
+    {
+      "identity": "f-023-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-023-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-023-01.jpg",
+      "uid": "CUHK:f-023-01",
+      "sketch_sha256": "046d4306b5bac2072802a6898296e8cb0c1532eaeaa30c1c03f6f0a8aefedf58",
+      "photo_sha256": "3c23f587df3ce878af47820f87e7f52d67c6eadb4755d3ee005e278f1ca287a3",
+      "split": "train"
+    },
+    {
+      "identity": "f-024-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-024-01.jpg",
+      "uid": "CUHK:f-024-01",
+      "sketch_sha256": "badb753fb984adb6f81cc4929e19818ebf501acf0614610bbb1cc7415667a1dc",
+      "photo_sha256": "20a1adee4ae5b99aa9d7dd9a61589cb343c8b3139dd5c4d1ed6ecf49c3b92743",
+      "split": "test"
+    },
+    {
+      "identity": "f-025-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-025-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-025-01.jpg",
+      "uid": "CUHK:f-025-01",
+      "sketch_sha256": "c1d55a9071a74b21bdec23ad02d431d949928a5188b68b157c7497e0bf9fd953",
+      "photo_sha256": "07b6cfe2a901469fd9eb9f5f8509f82c532932916d8730b2679bb26bf405d394",
+      "split": "train"
+    },
+    {
+      "identity": "f-026-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-026-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-026-01.jpg",
+      "uid": "CUHK:f-026-01",
+      "sketch_sha256": "b06dacbe030132eb728a35809faa3f94367106bb2db55b5814026373299c6745",
+      "photo_sha256": "a2433f1aa97fe0559a010e165239a2736c6b7bdd726fc397ce11cf5d0c8e9d95",
+      "split": "train"
+    },
+    {
+      "identity": "f-027-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-027-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-027-01.jpg",
+      "uid": "CUHK:f-027-01",
+      "sketch_sha256": "ab9effe7d3ebd5e5bc98d04661edeae808c6c3775695e6430f44efc0d0153e22",
+      "photo_sha256": "23433969fbbe42d1aa8ebf9cde267665e129417dfc72b8f87c7da39a5ca844c3",
+      "split": "train"
+    },
+    {
+      "identity": "f-028-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-028-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-028-01.jpg",
+      "uid": "CUHK:f-028-01",
+      "sketch_sha256": "0273a23a5993eaf2c7dfc7ebf82ed943948c158057db2da10e22f61b0386168d",
+      "photo_sha256": "4fbe92f22994782cae87909c9bce91a8e9d372a9878c5976bafbce520761dbcb",
+      "split": "train"
+    },
+    {
+      "identity": "f-029-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-029-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-029-01.jpg",
+      "uid": "CUHK:f-029-01",
+      "sketch_sha256": "3a4902868e250f5ad8e9cbaebbd4925bd8a7fce63142ec44f814a1429150ee70",
+      "photo_sha256": "8c0811808fcac30e0143d02c0df0dc55852bf247d586bcfb87164c0f4b3aa615",
+      "split": "train"
+    },
+    {
+      "identity": "f-030-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-030-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-030-01.jpg",
+      "uid": "CUHK:f-030-01",
+      "sketch_sha256": "aac4c6b77aed4a0fc07635f4c33fd3936cfd5ab6aa8cbb32bba590d48363bf0c",
+      "photo_sha256": "b70fe133ab8b4ef9e4c7ed39b4f2e4f30027f7643c6202a3aea3adbe4318d213",
+      "split": "train"
+    },
+    {
+      "identity": "f-031-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-031-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-031-01.jpg",
+      "uid": "CUHK:f-031-01",
+      "sketch_sha256": "35c3435d076160940a07d00ecc60735e80f03e38ec93b6cb43276b3d39048451",
+      "photo_sha256": "c521f0ded49bd3518749222402d0cd67568e4ec3e4d3dc7f09cd974b5dd33c6e",
+      "split": "train"
+    },
+    {
+      "identity": "f-032-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-032-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-032-01.jpg",
+      "uid": "CUHK:f-032-01",
+      "sketch_sha256": "bd4f3c40aa4a41306c76aef5e8d305c31aec9f43b1a1b089af6d777ed6cb5a99",
+      "photo_sha256": "a04d4afbf3c1ae1cfa4ad67284608057bfab4517b3ac1e7f958011a0645d4519",
+      "split": "train"
+    },
+    {
+      "identity": "f-033-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-033-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-033-01.jpg",
+      "uid": "CUHK:f-033-01",
+      "sketch_sha256": "921574fc6b4730c7f11c0a637a24064bf0596f81e4fecfce72a42b40bf904d50",
+      "photo_sha256": "975a2b29ba6f8a9f6da3c2bd90b821e9240528c81bc5d4036462b8e6874736af",
+      "split": "train"
+    },
+    {
+      "identity": "f-034-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-034-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-034-01.jpg",
+      "uid": "CUHK:f-034-01",
+      "sketch_sha256": "f38ea4576a61441aa4816d53f6763c2dc83b5ce5b926a8fc654a868f868f6091",
+      "photo_sha256": "642443e34f3a442617936c0bc9ef6783a30c1a4615b4b7267f25babdb80e1be2",
+      "split": "train"
+    },
+    {
+      "identity": "f-035-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-035-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-035-01.jpg",
+      "uid": "CUHK:f-035-01",
+      "sketch_sha256": "2600cb87302465f052742af1b3a004612208760c195b361efd5b84d6abc5033d",
+      "photo_sha256": "8fb75a2468bc67143cc0e1361515fe25a8265e6c40ef8b45304920d941d85f26",
+      "split": "val"
+    },
+    {
+      "identity": "f-036-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-036-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-036-01.jpg",
+      "uid": "CUHK:f-036-01",
+      "sketch_sha256": "350eb7195777ac8f06241ecd3d21c221a12bd04dc43643ec68acb6d04260eb75",
+      "photo_sha256": "209b36e54ee835f90cf3ddaa8d4dc12954077d4c5db4a780eb915c16fb7e22d9",
+      "split": "train"
+    },
+    {
+      "identity": "f-037-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-037-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-037-01.jpg",
+      "uid": "CUHK:f-037-01",
+      "sketch_sha256": "341184cea07b1f801180ca3cb293781368ccbb3497a4cbb78e57f250eaa251cf",
+      "photo_sha256": "532ebaa8d306046addff5f52cd99cfcff137de02521c2ea6fa09e9a7c7bd6890",
+      "split": "val"
+    },
+    {
+      "identity": "f-038-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-038-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-038-01.jpg",
+      "uid": "CUHK:f-038-01",
+      "sketch_sha256": "616afcbaaf25c690a375b5e218aa8d79166104a809296535d23ac41cf2e6c72e",
+      "photo_sha256": "f16589070946480cc40a2078998ef355864041cf66462e9941d9fd76cea33eae",
+      "split": "train"
+    },
+    {
+      "identity": "f-039-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-039-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-039-01.jpg",
+      "uid": "CUHK:f-039-01",
+      "sketch_sha256": "4f9ccfb9e9d8da4f06ef456820a482686ba2952c5ed40e66d3bd55c83bf0c8bf",
+      "photo_sha256": "9cdc99f48a36e0431751a9e06738d83a3e4929d302c49f7609a5c06d0bbaad80",
+      "split": "train"
+    },
+    {
+      "identity": "f-040-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-040-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-040-01.jpg",
+      "uid": "CUHK:f-040-01",
+      "sketch_sha256": "28583128533edf2dd5448e2be93c77148cd9c8bd623b4b4117ba72440e89cca4",
+      "photo_sha256": "7dcd87c603244e47fd2b44d521b840e78f53a4b6dcad3471d3fb773f0102f0cc",
+      "split": "train"
+    },
+    {
+      "identity": "f-041-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-041-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-041-01.jpg",
+      "uid": "CUHK:f-041-01",
+      "sketch_sha256": "127236b01c7ff02d34c63b27a53999a637e1bbbcb780d505fa8fe84cd6a805c3",
+      "photo_sha256": "555c09a2a3238c5ac46aae9897d68c1201db89b5263c0964ae129447a20c32ac",
+      "split": "val"
+    },
+    {
+      "identity": "f-042-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-042-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-042-01.jpg",
+      "uid": "CUHK:f-042-01",
+      "sketch_sha256": "ea4946786eb71208628436b664c1531eb5775e33cbfe4b9fd22f00cbef83b0ed",
+      "photo_sha256": "bacfcb4eac6c96aa43d0e81509e648b0d0f6390793ec72743c02640b70641b3f",
+      "split": "val"
+    },
+    {
+      "identity": "f-043-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-043-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-043-01.jpg",
+      "uid": "CUHK:f-043-01",
+      "sketch_sha256": "3d5c6277e4c8aa89c5788f1aa98a4b398e3681611ee21af60376817e3383f94c",
+      "photo_sha256": "78ef957961a82e69f50cc540af24a112288eb887b458a5288bda6877195d0309",
+      "split": "test"
+    },
+    {
+      "identity": "f1-001-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-001-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-001-01.jpg",
+      "uid": "CUHK:f1-001-01",
+      "sketch_sha256": "3ccde752b2fa98ade360090ec7408de4af9b2e884d661479ff1f96480523598a",
+      "photo_sha256": "a4ad4af88f7fe7d5b44a57701f96fbdfe78345bfc14b78064e0780b2b2eb6c10",
+      "split": "train"
+    },
+    {
+      "identity": "f1-002-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-002-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-002-01.jpg",
+      "uid": "CUHK:f1-002-01",
+      "sketch_sha256": "1d0605295beefcb0d2751f4ae079d352b18f8379b8c963ff5de1348a86c74522",
+      "photo_sha256": "43a3b036a91a08f3199d1fb9c3bcf4b37d67b08bc7752db634383fb63d0d532e",
+      "split": "train"
+    },
+    {
+      "identity": "f1-003-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-003-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-003-01.jpg",
+      "uid": "CUHK:f1-003-01",
+      "sketch_sha256": "56c0fde5aee253f235c4d6279fa4d23821a11a1504d99db551db0d991d6c1464",
+      "photo_sha256": "c93ee03096708efb43b1044a8de4104c9739b8092bcc60e53b36676b93fbe551",
+      "split": "train"
+    },
+    {
+      "identity": "f1-004-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-004-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-004-01.jpg",
+      "uid": "CUHK:f1-004-01",
+      "sketch_sha256": "91fdeb3ad30474d93acf3e97fe3e27b5bb957f2c1d60398cbef4b095e25beee9",
+      "photo_sha256": "17ab03689bcf9782a7b34fe010d473d5eb3fcd66b0fc68d7ccb2334e245e96f3",
+      "split": "val"
+    },
+    {
+      "identity": "f1-005-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-005-01.jpg",
+      "uid": "CUHK:f1-005-01",
+      "sketch_sha256": "3816f0791628ca48a875c95522b53191374f0f76c01685c77f53910ac64dbb2f",
+      "photo_sha256": "76ce502d3a24620fdbb86be464fb6c515a73d9ebd818505e9d47d60cd42ae4b5",
+      "split": "test"
+    },
+    {
+      "identity": "f1-006-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-006-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-006-01.jpg",
+      "uid": "CUHK:f1-006-01",
+      "sketch_sha256": "d365f71bcb9217eeb9cdc125272a7cf67c29581e1b18e31e82bf4287cdc52628",
+      "photo_sha256": "e8915193f2eef809f4c98116fa798ad5e12f344cdfd25ad2b0ba15d1170e65b3",
+      "split": "val"
+    },
+    {
+      "identity": "f1-007-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-007-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-007-01.jpg",
+      "uid": "CUHK:f1-007-01",
+      "sketch_sha256": "d870ae6df3c396dddbf28915dd7b13a85f332ca912311cb50a9df6f6fecc4776",
+      "photo_sha256": "d0ed713767827284ffc0eaea968b2d7ca551e2e078213f29702b69ef18af3e79",
+      "split": "train"
+    },
+    {
+      "identity": "f1-008-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-008-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-008-01.jpg",
+      "uid": "CUHK:f1-008-01",
+      "sketch_sha256": "fd62896607f9b418492efab2318f2cfece40281b7a8e27b7d115b7f03c3052dd",
+      "photo_sha256": "0c060bbf0b0cbc804d3bb7da9313385c160954c1c9d1be45e235b6cd2ce30350",
+      "split": "train"
+    },
+    {
+      "identity": "f1-009-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-009-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-009-01.jpg",
+      "uid": "CUHK:f1-009-01",
+      "sketch_sha256": "3a0460c13de7009b197aa89d835072513862fd469a682940046fcbc0d65a063a",
+      "photo_sha256": "fe059f80c685c183847aee8bffcc7d1d523a3fa8ba4efc8aaac0f98d1e2ee261",
+      "split": "train"
+    },
+    {
+      "identity": "f1-010-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-010-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-010-01.jpg",
+      "uid": "CUHK:f1-010-01",
+      "sketch_sha256": "6ab37c613c3822c1330d0478d3fd6cf12cf6987b8438ebf5105088f41fee30c3",
+      "photo_sha256": "4eb854e84b438e9cda14a8ea5668c1a6de3b41162c9f116411c4c098e9650507",
+      "split": "train"
+    },
+    {
+      "identity": "f1-011-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-011-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-011-01.jpg",
+      "uid": "CUHK:f1-011-01",
+      "sketch_sha256": "fb6441df3d2a3201c23f8d6484790a744aa6acc5967e38403d6b1a66f06f9d4b",
+      "photo_sha256": "43510d27fbf8ea79cde4704a312a00cd1642a151bbd6f01a91097c0173320d66",
+      "split": "train"
+    },
+    {
+      "identity": "f1-012-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-012-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-012-01.jpg",
+      "uid": "CUHK:f1-012-01",
+      "sketch_sha256": "0e1c323f07e9fcc3a0c5a983bad038ec8b466160a5a3a3de7a857e8576b5eeae",
+      "photo_sha256": "178fc40b96c4dbfaef86d0467ccbe4d3afb5e55514275cb01a1ff9fec888ac2d",
+      "split": "train"
+    },
+    {
+      "identity": "f1-013-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-013-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-013-01.jpg",
+      "uid": "CUHK:f1-013-01",
+      "sketch_sha256": "00784348bfd8ac56ebbfcb1a505d02411127eb81b1da906b1aa85da6e24e57ab",
+      "photo_sha256": "43dbba3fec1794ea94946fc6f56e133dfdf501d55207872db05b67099d6a91b6",
+      "split": "train"
+    },
+    {
+      "identity": "f1-014-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-014-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-014-01.jpg",
+      "uid": "CUHK:f1-014-01",
+      "sketch_sha256": "799f75bfd04ad4c108481159ae7fedfff75f4d5378d3d9d0e99a0c75cb977886",
+      "photo_sha256": "c28f992b3548d1919b3b7aa6140da38990ddb39a3706c33c859aa0cf96183df8",
+      "split": "val"
+    },
+    {
+      "identity": "f1-015-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-015-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-015-01.jpg",
+      "uid": "CUHK:f1-015-01",
+      "sketch_sha256": "1205b838d092228271e2471599ad5a9181cb96c04fa3c68548ca42c89deb5a75",
+      "photo_sha256": "b8433e2f6c05b48ff78409f63ca0809782e97dfb53162397efb2cf55b9dc01f2",
+      "split": "val"
+    },
+    {
+      "identity": "m-008-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-008-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-008-01.jpg",
+      "uid": "CUHK:m-008-01",
+      "sketch_sha256": "f97c259d0ba70ff73af019f60cce15f6b2b00dbafc0c2ab0ebec9c8fd6a13a31",
+      "photo_sha256": "2e68cde8fe6b1d6b068b786271d2bcf781d59a006fb0fd9fb340a51c7f1756d3",
+      "split": "test"
+    },
+    {
+      "identity": "m-009-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-009-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-009-01.jpg",
+      "uid": "CUHK:m-009-01",
+      "sketch_sha256": "5fa86dc7fe56b1fb806cc8b5d61a2e81208149bfe012e9fd01a573e0e9b32503",
+      "photo_sha256": "21bffa4ce0fb4155620343b1f0e0fbd02027697eb3bf33642f9b22f279dddf7e",
+      "split": "train"
+    },
+    {
+      "identity": "m-010-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-010-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-010-01.jpg",
+      "uid": "CUHK:m-010-01",
+      "sketch_sha256": "88836726880731acb9329fb768398ed10ff445abbf6472854781b450299953aa",
+      "photo_sha256": "2c5c2276469d2d2abf4c3679afebbee8239f270a18ab9844f3459dfb94527206",
+      "split": "train"
+    },
+    {
+      "identity": "m-011-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-011-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-011-01.jpg",
+      "uid": "CUHK:m-011-01",
+      "sketch_sha256": "52e4cad1c24511e85129e5ce4e7f87421cd188d173340e87948520c5726764ac",
+      "photo_sha256": "7e5be360e9327b23596e023b4ff8c806036165cb48f90b70f1e0c131bb691f06",
+      "split": "train"
+    },
+    {
+      "identity": "m-012-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-012-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-012-01.jpg",
+      "uid": "CUHK:m-012-01",
+      "sketch_sha256": "542e0e36114393acf4abcca8fc95146b7a01a053159bc912080799379b004d3c",
+      "photo_sha256": "08fefc894eda2ae03faf34fc79979f2b1e41f2ee0e40aa9f1234cae1bb1bd1dc",
+      "split": "train"
+    },
+    {
+      "identity": "m-013-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-013-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-013-01.jpg",
+      "uid": "CUHK:m-013-01",
+      "sketch_sha256": "1697f92afe5283d7d8d5b6a4ff0f30d849f2efe9af86b4ce1643422c2d205021",
+      "photo_sha256": "968980169bcc48c6d1441446e22f21114f4eff0c3f9f96abfdfbf37b92489bc1",
+      "split": "train"
+    },
+    {
+      "identity": "m-014-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-014-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-014-01.jpg",
+      "uid": "CUHK:m-014-01",
+      "sketch_sha256": "6a88482719dbad5d53a1527d634238291269d8a96b89baacd76c64a1e51b6307",
+      "photo_sha256": "d53e7d2d8e2e0b22ecc0ecbd24b52304dda5333029b10e9bf8cf1b13d9b89926",
+      "split": "val"
+    },
+    {
+      "identity": "m-015-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-015-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-015-01.jpg",
+      "uid": "CUHK:m-015-01",
+      "sketch_sha256": "e2fe61d51b70f95d75af6a1d5d63202f722626cf406a8caa046f7e2ad6e1fe18",
+      "photo_sha256": "545cfde920e75bb985ae19de6ff41de5adbf0a34b6d07e7c6ad12ec0624d9b11",
+      "split": "val"
+    },
+    {
+      "identity": "m-016-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-016-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-016-01.jpg",
+      "uid": "CUHK:m-016-01",
+      "sketch_sha256": "d0722100ead15dde2c01106f26f6d99fe0219137a6475db3b125cfde62af4f02",
+      "photo_sha256": "16355407a3383b1a2937ed329d5d332dd087a6408b851bbe4ab3ec2f8f805af2",
+      "split": "train"
+    },
+    {
+      "identity": "m-017-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-017-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-017-01.jpg",
+      "uid": "CUHK:m-017-01",
+      "sketch_sha256": "74b621c67754e7727b3dc9252c4d690efd49f4792b27aaaaa8b027efc41cce05",
+      "photo_sha256": "6cbbe2344fd15493b36ec6fa6ced86bb0ede38371e537e290c025d064a0a72c8",
+      "split": "train"
+    },
+    {
+      "identity": "m-018-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-018-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-018-01.jpg",
+      "uid": "CUHK:m-018-01",
+      "sketch_sha256": "e0e40322461d7f9521dc11fc454551abfd81a488ed6393e650e9cd0196afce37",
+      "photo_sha256": "ed0bfefd9b9b27a4e16eb09543601ae0d00d9a04157e33573cd0297726294147",
+      "split": "val"
+    },
+    {
+      "identity": "m-019-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-019-01.jpg",
+      "uid": "CUHK:m-019-01",
+      "sketch_sha256": "6973cb424a5dcb2f6acebbc8e3c877bef5fe3e6ded87d4374a4f6c685864bb2c",
+      "photo_sha256": "220069db6136acdcbc41e0807285ca622acb593d3836fd8c35dd0a3a48527d54",
+      "split": "test"
+    },
+    {
+      "identity": "m-021-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-021-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-021-01.jpg",
+      "uid": "CUHK:m-021-01",
+      "sketch_sha256": "38fe312078916f5f17e6df1ba2e70ed4009f15ca1d914e964ca87a5271ea1a18",
+      "photo_sha256": "609a1580c01829476b0ab5eaf57a7f556c8693d9e5824cd894adef91fc0e3888",
+      "split": "val"
+    },
+    {
+      "identity": "m-022-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-022-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-022-01.jpg",
+      "uid": "CUHK:m-022-01",
+      "sketch_sha256": "49388398286bb92bf4ce3a96e8c6308d14ed491904f0c4d047744584c0f7eae1",
+      "photo_sha256": "a822f8ffd4162b509953b4fb26a2406e72d3b373de74783f1dfc76cfe8b99bb2",
+      "split": "train"
+    },
+    {
+      "identity": "m-023-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-023-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-023-01.jpg",
+      "uid": "CUHK:m-023-01",
+      "sketch_sha256": "08ab92af86a451b803fdf7758e4d94ebf97053875f2ee2e33ba3d37e6c925c85",
+      "photo_sha256": "460355be892ca5c14f202807afba04f8c7b34e9e3cec00d1d2c66e6df44fb14d",
+      "split": "train"
+    },
+    {
+      "identity": "m-024-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-024-01.jpg",
+      "uid": "CUHK:m-024-01",
+      "sketch_sha256": "f381fa08245f4f45ba99e88a91b601590a9a4cd14dc244150a7a61ca046d4afb",
+      "photo_sha256": "14e7e15b9932ed16bade1b0190a9886f5cdf9a5776c3c6697d383af5db0f62c6",
+      "split": "test"
+    },
+    {
+      "identity": "m-025-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-025-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-025-01.jpg",
+      "uid": "CUHK:m-025-01",
+      "sketch_sha256": "0ef8d347eb60977a7524496acc743324b6f3fcdf7218fd6ac2b51ec5851ed996",
+      "photo_sha256": "a1359eb6df84297ecc67f821c171536d2a6f569bc955b47cbb20e565b3ab174e",
+      "split": "train"
+    },
+    {
+      "identity": "m-026-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-026-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-026-01.jpg",
+      "uid": "CUHK:m-026-01",
+      "sketch_sha256": "baaf7c5e1cc55f7e3bf3694a3bd60cb670208227a18ca53706081bcd08b79f36",
+      "photo_sha256": "a155e0b40cfb6a6afe5babe5c1ecb6efd17a47d74e3d20dd2b3ebe56b6f0090e",
+      "split": "train"
+    },
+    {
+      "identity": "m-027-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-027-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-027-01.jpg",
+      "uid": "CUHK:m-027-01",
+      "sketch_sha256": "4c62cb71e0d7d0ba61b04279a2b5d87d35594ac6d309f87f4bee5b81671267d4",
+      "photo_sha256": "788d3c77ba8b596c08faabea555d8da78ae54ea4298dc9d5a21e99f873cf45a9",
+      "split": "train"
+    },
+    {
+      "identity": "m-028-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-028-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-028-01.jpg",
+      "uid": "CUHK:m-028-01",
+      "sketch_sha256": "9f617287088ccc65a1ae52f5196fa07adffc2e78340b90ebd2346bfec08c7dc9",
+      "photo_sha256": "c5e23095d8e081a3809648337bcb642d83cf1701b4790dbd0476a25587dfbefe",
+      "split": "val"
+    },
+    {
+      "identity": "m-029-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-029-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-029-01.jpg",
+      "uid": "CUHK:m-029-01",
+      "sketch_sha256": "708b389a2ea8a55dec70f85bc4b978b68839af64c59ca9f061f6a0ffc7a8472c",
+      "photo_sha256": "68eb11ca9fe8b1052b241e73f3481831484b33a2def59a13b8fe418e001756f6",
+      "split": "train"
+    },
+    {
+      "identity": "m-030-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-030-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-030-01.jpg",
+      "uid": "CUHK:m-030-01",
+      "sketch_sha256": "030e5c0dced6149cdbf45a3feeef30fda80fee4cc82100dacebc27d29e4a32cd",
+      "photo_sha256": "9cbfa7d0ce08a180067655149c94c51601127089f6cb10412ffdb6716a60b767",
+      "split": "train"
+    },
+    {
+      "identity": "m-031-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-031-01.jpg",
+      "uid": "CUHK:m-031-01",
+      "sketch_sha256": "bc42515ca49dee276f349263ff932a3102eb08d15c3f7da4b0ff55c339034d45",
+      "photo_sha256": "abc9c85785cde1b5fcb60cd171214dca7a583aefc6747c5428d77df2c076c0b6",
+      "split": "test"
+    },
+    {
+      "identity": "m-032-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-032-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-032-01.jpg",
+      "uid": "CUHK:m-032-01",
+      "sketch_sha256": "f914b6d79fbe7592d2624b2ad657914afa4aa96a05f4155baedc819dac8290a3",
+      "photo_sha256": "3c97815202c1520b5d6c01599c866e878e8448bd3d070b544745fa14edc3ccc0",
+      "split": "train"
+    },
+    {
+      "identity": "m-033-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-033-01.jpg",
+      "uid": "CUHK:m-033-01",
+      "sketch_sha256": "b3cad8d3b49f9ecdb99a1eda134e99f64f919ea8d945d021e3a4aed48d720294",
+      "photo_sha256": "3547e8b388a1959ec5bde0f05518526b5e577fa447aefe48c85b2c35e497dc0a",
+      "split": "test"
+    },
+    {
+      "identity": "m-034-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-034-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-034-01.jpg",
+      "uid": "CUHK:m-034-01",
+      "sketch_sha256": "fc9b62ec88638ca1c8f7b41abfa99c2793c1e25f31f2d9c03965c4ac0bcc214d",
+      "photo_sha256": "0ad3c21792bcd6a81e2152c20f6fc249e3b4e2d18dfbcc22fc7610e7769f130b",
+      "split": "train"
+    },
+    {
+      "identity": "m-035-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-035-01.jpg",
+      "uid": "CUHK:m-035-01",
+      "sketch_sha256": "a3e6493fc9810443b3894c0654167d833381cc12ed18ba6e44b7e20dfe572ef4",
+      "photo_sha256": "d7e7118cba18f83429870cd6407a4196108bda92166b7143ded4dac510c559b9",
+      "split": "test"
+    },
+    {
+      "identity": "m-036-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-036-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-036-01.jpg",
+      "uid": "CUHK:m-036-01",
+      "sketch_sha256": "11c56f5d14cad13c6c6a81b173579d08fccf29f11884817d3783fd2c88fe57d0",
+      "photo_sha256": "34c656feb82a3507c3dede76dabc8233811de368e3d7e309b3b4a15381804f53",
+      "split": "train"
+    },
+    {
+      "identity": "m-037-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-037-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-037-01.jpg",
+      "uid": "CUHK:m-037-01",
+      "sketch_sha256": "9219658588e94c3c3a5755fc22b0aaf76dd905eb698851ee87b4976973830f89",
+      "photo_sha256": "8ea7f1d8ca01230974fc6524c4dfcc9e0f32968226e9b7d58626a9c96dfe7f92",
+      "split": "train"
+    },
+    {
+      "identity": "m-038-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-038-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-038-01.jpg",
+      "uid": "CUHK:m-038-01",
+      "sketch_sha256": "57826c99295a82a12d3fc073affc1d46495f86c8ce2b8d575358de054d2b493d",
+      "photo_sha256": "3e16b4fd617f7066ad2b6e61c68b141f4265b01746af8ddc12a7869c2701f812",
+      "split": "train"
+    },
+    {
+      "identity": "m-039-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-039-01.jpg",
+      "uid": "CUHK:m-039-01",
+      "sketch_sha256": "a9aed6aaa0170b2403bb42c23db57c63cef4e0ce461c14bc76f99961f05e0546",
+      "photo_sha256": "fc25166b4270e057577329e7027e29cfc3cff0a00f6981c856806660d7c7ef7f",
+      "split": "test"
+    },
+    {
+      "identity": "m-040-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-040-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-040-01.jpg",
+      "uid": "CUHK:m-040-01",
+      "sketch_sha256": "220bd776012f09275f9e5038b20fe91e8f9eac1e17504411ce09ec565c0716ae",
+      "photo_sha256": "83f83348efd18d1991a1156d85a9413590399966f4d7f581119d0965cdef6169",
+      "split": "train"
+    },
+    {
+      "identity": "m-041-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-041-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-041-01.jpg",
+      "uid": "CUHK:m-041-01",
+      "sketch_sha256": "8d8d465c8a31754735c036af427096010636ac2986adb64a66a98fc8475f2ec9",
+      "photo_sha256": "14fe9f3bfc32f067e3b86249e02829b4e9665b0a323a92c3a074a8ca3a987042",
+      "split": "train"
+    },
+    {
+      "identity": "m-042-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-042-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-042-01.jpg",
+      "uid": "CUHK:m-042-01",
+      "sketch_sha256": "a0bbcbb2710c809febabfb82014b9a1952e71784a969a5823362ce4e8f47253a",
+      "photo_sha256": "d3a6d260ef2ca6b5bda3ada153d9f1b694f08892981c2546e0c33255d84c9920",
+      "split": "train"
+    },
+    {
+      "identity": "m-043-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-043-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-043-01.jpg",
+      "uid": "CUHK:m-043-01",
+      "sketch_sha256": "65fa0f0fff0191f84689919ca628331408501bce15d0dec0a0307d8200bc06ab",
+      "photo_sha256": "45c3b7051a1915142ff079a4412cb2c7bcc53f3d934137c1749cd3764d4ba55a",
+      "split": "train"
+    },
+    {
+      "identity": "m-044-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-044-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-044-01.jpg",
+      "uid": "CUHK:m-044-01",
+      "sketch_sha256": "2f7b642530fc023280c8a26772698a69dd1671d7c39441ea7b945fd98acc1333",
+      "photo_sha256": "12a3ea93e2e1f6bf9c089bc165c7b5c94f34145fd24757a7785b30f42c79d245",
+      "split": "train"
+    },
+    {
+      "identity": "m-045-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-045-01.jpg",
+      "uid": "CUHK:m-045-01",
+      "sketch_sha256": "2231550ef5423769f54b7dbbb8585ca065fc55229069ee51ec1939e8b78f45b4",
+      "photo_sha256": "84b8084a45d0695b345e7192df1bd401211572f5eaeaacaefda7d8da9d8ebfee",
+      "split": "test"
+    },
+    {
+      "identity": "m-046-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-046-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-046-01.jpg",
+      "uid": "CUHK:m-046-01",
+      "sketch_sha256": "3314b42e240934d91d4c33166e5cd4bdb85046dcabcd254d605a29c25c1e8f0b",
+      "photo_sha256": "e5f5b455e0eba0f24f3a9c89e8a5ec5206df192ba095d8532ca674f8faef0963",
+      "split": "train"
+    },
+    {
+      "identity": "m-047-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-047-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-047-01.jpg",
+      "uid": "CUHK:m-047-01",
+      "sketch_sha256": "ef7d65d0af1f82d3165d94f5c1cbfff318d2d8818c9e8eced0846ff209be0a78",
+      "photo_sha256": "ba4c19b3ae5fc649e8c419e0434735a664c3e4060cabd386fc166f5f530b1909",
+      "split": "train"
+    },
+    {
+      "identity": "m-048-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-048-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-048-01.jpg",
+      "uid": "CUHK:m-048-01",
+      "sketch_sha256": "a9aabdb7d941b8ca35f52d8cc63b374d0addb95e9c7814fbc6f236819a6de93a",
+      "photo_sha256": "7e29df6634cdf4146379922e0e340da1ce0590d046abeadfb869ed7d34cbd4d7",
+      "split": "train"
+    },
+    {
+      "identity": "m-049-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-049-01.jpg",
+      "uid": "CUHK:m-049-01",
+      "sketch_sha256": "bdce75edc77a7480bbd7be07d12aa3d38ee6dc16733990b9f27af9be90721932",
+      "photo_sha256": "77d15192960cec2271db6ba6cf346c23b32ff74b35f006e02f55211413053e9d",
+      "split": "test"
+    },
+    {
+      "identity": "m-050-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-050-01.jpg",
+      "uid": "CUHK:m-050-01",
+      "sketch_sha256": "519cfe17a7b4523fab30e98720570abe98dc7f6d7765b8992f5d35a7aeb3ca66",
+      "photo_sha256": "6020b751f0348698b213a6d8a3a75bbe31a12a39d7fe585676be663f7a6839d5",
+      "split": "test"
+    },
+    {
+      "identity": "m-051-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-051-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-051-01.jpg",
+      "uid": "CUHK:m-051-01",
+      "sketch_sha256": "6741c70f6393f0bad0070fdd0f99c73d5676fa5b0d8e00a8563417b70dfa13b7",
+      "photo_sha256": "7c958435fcf99f0b0238639092b868cbb3adb5a971696ea20af6891b914107f0",
+      "split": "train"
+    },
+    {
+      "identity": "m-052-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-052-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-052-01.jpg",
+      "uid": "CUHK:m-052-01",
+      "sketch_sha256": "e0c282938789d96f94aeefba1ee6ea073a0ab56d969cf849bdd4a05ad14323a2",
+      "photo_sha256": "ed1f4897025b7b9f3140fa0d31f94e6d0f5e1bab395b7378da9f741c07e81473",
+      "split": "train"
+    },
+    {
+      "identity": "m-053-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-053-01.jpg",
+      "uid": "CUHK:m-053-01",
+      "sketch_sha256": "f07d197321bdd687f653e760b5690220a90323ce6620140b7dc180860c3d34fa",
+      "photo_sha256": "fa898366a7590b75cf6df72592c776febf3a6fe45045a0ab778164a0447987e7",
+      "split": "test"
+    },
+    {
+      "identity": "m-054-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-054-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-054-01.jpg",
+      "uid": "CUHK:m-054-01",
+      "sketch_sha256": "8878248c3a9d498894998bf0648e402905453872aa0ceca0a7a86586c61d33e4",
+      "photo_sha256": "e9cfb2c7ba34da19427afad8660c5e5df038dcff3b1745acf70875d482217c34",
+      "split": "train"
+    },
+    {
+      "identity": "m-055-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-055-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-055-01.jpg",
+      "uid": "CUHK:m-055-01",
+      "sketch_sha256": "3d946d283723cbebd590ad379ff05844d6dd42a36cda4f7819b55b3aa51e5ba0",
+      "photo_sha256": "dc01385442a82588fd82c6ff0064b4270acec8cb94d89a8760e4b6b4381ab244",
+      "split": "train"
+    },
+    {
+      "identity": "m-056-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-056-01.jpg",
+      "uid": "CUHK:m-056-01",
+      "sketch_sha256": "17a83d1700bcb038958ad8b9171271463cecb13d520581f1e960ea177063f2de",
+      "photo_sha256": "3597a25f1c49abe98487ff87c3376ebe7d6565fa161332cee1ad3e7b0961c40d",
+      "split": "test"
+    },
+    {
+      "identity": "m-057-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-057-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-057-01.jpg",
+      "uid": "CUHK:m-057-01",
+      "sketch_sha256": "7c5b00a425dad5858d12341bd774ce2d190508bbc74a4918a4dc30a36890bcde",
+      "photo_sha256": "f0d540ec7b82d46b3ee0fd15a9b8af1e98b692b3724c60147474e1d300bae3e6",
+      "split": "train"
+    },
+    {
+      "identity": "m-058-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-058-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-058-01.jpg",
+      "uid": "CUHK:m-058-01",
+      "sketch_sha256": "13c0c566c08f2296638a05ccac09e23e2793f01c68e938db319bb74b72c8fcb9",
+      "photo_sha256": "33a1379b344f4eb3627721f72a62d8a5a7296c892b86fb15cebc809b89ff4ead",
+      "split": "val"
+    },
+    {
+      "identity": "m-059-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-059-01.jpg",
+      "uid": "CUHK:m-059-01",
+      "sketch_sha256": "192722a831f3f2ee3efe6362542446fcbb8305d265f972fe8912e0dc7aaf4075",
+      "photo_sha256": "dbfd3e967b86801e72a3ca9f4381383f20902da47aa3f2b2c77b7d904b716793",
+      "split": "test"
+    },
+    {
+      "identity": "m-060-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-060-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-060-01.jpg",
+      "uid": "CUHK:m-060-01",
+      "sketch_sha256": "51d68bced00c9b60b4cb308935e3e957d880fea04d1badb5b7e318ff4d4ad5fe",
+      "photo_sha256": "57f2ff0767dd7945a2ba72d63493ffc0277ff3cf85be24dc82e1ba38238db01b",
+      "split": "val"
+    },
+    {
+      "identity": "m-061-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-061-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-061-01.jpg",
+      "uid": "CUHK:m-061-01",
+      "sketch_sha256": "c5c9a508b11e2247575ae59ad3c6c41dbc64f6d5ebf4eb041b99adb97764f1f4",
+      "photo_sha256": "66ff1a2d8bc807cfa05f8bf7c11735d6e91d34e4f6750eb36c31efb02576b478",
+      "split": "train"
+    },
+    {
+      "identity": "m-062-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-062-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-062-01.jpg",
+      "uid": "CUHK:m-062-01",
+      "sketch_sha256": "8940a667ca71ccc1f3959c30f8ef9f7860ca17fdcf4af1946d121fe8178e4ed1",
+      "photo_sha256": "fc0b7e247fd7d0b4c9a41efe8eb31d993e4202987de81e210d3e35180d7e2b03",
+      "split": "train"
+    },
+    {
+      "identity": "m-063-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-063-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-063-01.jpg",
+      "uid": "CUHK:m-063-01",
+      "sketch_sha256": "b413985e297e72af9a51b7b026650c089f73ad836ffd1dc0a27579f722eeed6d",
+      "photo_sha256": "9f8b3eb5a2a2bbf332cd9dc0118f26af4e72a141736fdadc2bcc3f651b702922",
+      "split": "train"
+    },
+    {
+      "identity": "m-064-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-064-01.jpg",
+      "uid": "CUHK:m-064-01",
+      "sketch_sha256": "19a79d20817ddf672b8fad4a20087e9bac4571b73e00b08e75d8e04d45d77f5f",
+      "photo_sha256": "fa09f23cb410f7accaee27b072bce25f08c4091f8e858ed904ca8fea01971075",
+      "split": "test"
+    },
+    {
+      "identity": "m-065-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-065-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-065-01.jpg",
+      "uid": "CUHK:m-065-01",
+      "sketch_sha256": "e8b016e913f5ef0d8abd683c7ea28a6b9cac7cc47f41222a6b56c19f688770d2",
+      "photo_sha256": "d478f2982423cd13a81da7d197570209ad564f7b2c0457743668fab903df3a8b",
+      "split": "train"
+    },
+    {
+      "identity": "m-066-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-066-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-066-01.jpg",
+      "uid": "CUHK:m-066-01",
+      "sketch_sha256": "1111ffd32883f44860e5ff327eb369056bde78ad0d97d62d893e6a1a815c9f55",
+      "photo_sha256": "a2d91422bf560faa153d2ac348ff92f05ea4f3eb4ccd9a7cb22feb7c5ffb6a9c",
+      "split": "val"
+    },
+    {
+      "identity": "m-067-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-067-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-067-01.jpg",
+      "uid": "CUHK:m-067-01",
+      "sketch_sha256": "5cf8abdefb4fd6eb91cc1abaf9957837f75ef2995ba021f31f610c7cfe23e79e",
+      "photo_sha256": "8bcd8ca8ed32e26ee048301ac9f0415e3b718d027c06c923ac15c19cf35433eb",
+      "split": "val"
+    },
+    {
+      "identity": "m-068-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-068-01.jpg",
+      "uid": "CUHK:m-068-01",
+      "sketch_sha256": "6ac6ad4e901e3920b1452d6121bb70bd120ee2bc3f64c9fb8dff044c7bbcd17e",
+      "photo_sha256": "a1af55ab13251665f576ca37fd213cc7fcf70c0d49fd76537b50ef511b03d786",
+      "split": "test"
+    },
+    {
+      "identity": "m-069-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-069-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-069-01.jpg",
+      "uid": "CUHK:m-069-01",
+      "sketch_sha256": "ccbebdad5207ca716c8c1350599ddd7779e6b19f9e50be5e1496c781255f5e24",
+      "photo_sha256": "812b2ec9899def9a72779180f7518eda48ce06a86dc7d287aa217f4bab2ef805",
+      "split": "train"
+    },
+    {
+      "identity": "m-070-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-070-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-070-01.jpg",
+      "uid": "CUHK:m-070-01",
+      "sketch_sha256": "935a6402c2781d4174a61509b184765c86e0fe80518e896a085bb0e646fa03d1",
+      "photo_sha256": "9adfb90cbbf70a1cb0e58334d29ecf7613847e5007f0fd821281ac3b3f09dc5c",
+      "split": "val"
+    },
+    {
+      "identity": "m-071-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-071-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-071-01.jpg",
+      "uid": "CUHK:m-071-01",
+      "sketch_sha256": "32688a8816e0ad564354fdbe764d38cc9fd0903201a8c7a0da78af132e407be5",
+      "photo_sha256": "cf82f9ab5950a311387c354f7976db162249c6050654beba75ec8770f4a4f6c7",
+      "split": "train"
+    },
+    {
+      "identity": "m-072-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-072-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-072-01.jpg",
+      "uid": "CUHK:m-072-01",
+      "sketch_sha256": "d1db05b5675aba3abc6e27beb0fef18d9840c320626499a603fa7aea16b761d5",
+      "photo_sha256": "986049fcf816fa4f97fb99043b1c5850df907d4a0b94c70891a0974fae0a9cb6",
+      "split": "train"
+    },
+    {
+      "identity": "m-073-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-073-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-073-01.jpg",
+      "uid": "CUHK:m-073-01",
+      "sketch_sha256": "ca2fad59de5526da496dd4f2da6db74001a15ef138bd89dea30f076c301e533a",
+      "photo_sha256": "9c819a99a7a8cad1d1af00702d38533cc332149f13244d29bd4d0bd0245b98a3",
+      "split": "val"
+    },
+    {
+      "identity": "m-074-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-074-01.jpg",
+      "uid": "CUHK:m-074-01",
+      "sketch_sha256": "301c0b8a962075a04522a8392422982eaa599d1540eb8920df68d4f0ff7fd84c",
+      "photo_sha256": "66e3e0f1caff4c81c1dad0ad682c8b7188144f25316ee5088310028ab835d860",
+      "split": "test"
+    },
+    {
+      "identity": "m-075-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-075-01.jpg",
+      "uid": "CUHK:m-075-01",
+      "sketch_sha256": "5c4b75604fca36f4548a575ffdba1a844c3c1f856d6e7a454e54d3b5127741c0",
+      "photo_sha256": "5c5e8a223a6ee27f503c1aa40454065ad56e8728d21dd81de68965a3eef6bde5",
+      "split": "test"
+    },
+    {
+      "identity": "m-076-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-076-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-076-01.jpg",
+      "uid": "CUHK:m-076-01",
+      "sketch_sha256": "c3ec7bf2f2c1e75ac7906bb950c1946238e3a8dbd999076606ae904d65ff3087",
+      "photo_sha256": "9eb3ac723798fc2efec7c7ee6f7b24bbb53a54115dbc23edef1dbc98fbba9fa3",
+      "split": "train"
+    },
+    {
+      "identity": "m-077-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-077-01.jpg",
+      "uid": "CUHK:m-077-01",
+      "sketch_sha256": "6107af7e615a7693bc5418220ca1dac9c989be1e3aa6e15fba5665a4aad2a249",
+      "photo_sha256": "baaad3db9aa27d624873f0459449ddb4e39f5819f82599003f5d75b6108c61ee",
+      "split": "test"
+    },
+    {
+      "identity": "m-078-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-078-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-078-01.jpg",
+      "uid": "CUHK:m-078-01",
+      "sketch_sha256": "fc0eb06f91c40630af59b1f6119e58ca665e50e03e6cff0953f47cc486e6947c",
+      "photo_sha256": "0d54b04db80f4f9b3373d2df20f7f65649121ab343ba683e229a552f51acff6a",
+      "split": "train"
+    },
+    {
+      "identity": "m-079-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-079-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-079-01.jpg",
+      "uid": "CUHK:m-079-01",
+      "sketch_sha256": "2f208b1c6c8bf1a746d53b5ea2c71537b2caa502c82e6920d1026da4f0cd00b6",
+      "photo_sha256": "3ffd06c4fbcf4efe68074e8c6682ddf25f3e02eaa8e49234232d2e39a7dc7952",
+      "split": "train"
+    },
+    {
+      "identity": "m-080-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-080-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-080-01.jpg",
+      "uid": "CUHK:m-080-01",
+      "sketch_sha256": "74d36e29ea6a9d8b5b033cf1ddbb73f3628a084543ef41535ad41b766a1c4169",
+      "photo_sha256": "508d5f6056ccd438d79a6153deb23525cf56c6ad6c77dbe4ecba5ee854297104",
+      "split": "train"
+    },
+    {
+      "identity": "m-081-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-081-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-081-01.jpg",
+      "uid": "CUHK:m-081-01",
+      "sketch_sha256": "09094fe38b9260f16650e14e161e0fb5d92122b3d16ee7b0fe663c7807a7c152",
+      "photo_sha256": "75b8adc20d9811d1bac9536d2ff7ea870868866480610d50e83b5e7f6e918adc",
+      "split": "test"
+    },
+    {
+      "identity": "m-082-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-082-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-082-01.jpg",
+      "uid": "CUHK:m-082-01",
+      "sketch_sha256": "fcbdead7846b5f541ed19906db0602421308470bff08746f298fef93fac940ea",
+      "photo_sha256": "8d8a8c3f698ec346b69f174be5d6a25f5a27811adc73689a435eab0f459d6357",
+      "split": "val"
+    },
+    {
+      "identity": "m-083-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-083-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-083-01.jpg",
+      "uid": "CUHK:m-083-01",
+      "sketch_sha256": "2ec426439f64bdae142fb342ded6890a77010f656ce5c18d714536de453d9099",
+      "photo_sha256": "7620b35e05c55a3d77197150997b4b22e1554dba6aa3ce56cf8531a713703372",
+      "split": "val"
+    },
+    {
+      "identity": "m-084-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-084-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-084-01.jpg",
+      "uid": "CUHK:m-084-01",
+      "sketch_sha256": "59da40cb407ba083d57e8d7b804c79d70aafe4da75d6d6f43392633f31339120",
+      "photo_sha256": "b804c27be9527ba9bca01cdf644d224cd0eac9551500ec977d0f1128d1656472",
+      "split": "train"
+    },
+    {
+      "identity": "m-085-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-085-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-085-01.jpg",
+      "uid": "CUHK:m-085-01",
+      "sketch_sha256": "038c531cb670e398c539da7b7a5ce5046d24fb0a812079baf542c7e2f08f3302",
+      "photo_sha256": "a2d4e6b6bf19dc101eb1cf77c2f48e02e87be31cfec9ac34951bc127660ae748",
+      "split": "train"
+    },
+    {
+      "identity": "m-086-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-086-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-086-01.jpg",
+      "uid": "CUHK:m-086-01",
+      "sketch_sha256": "66adfd7045762786632b58f1c0e5f97f0d3f2e3997635d212837a7deee7ffd69",
+      "photo_sha256": "dbe704ce169180c37a64e124effe0925ba4ed6899d4ac7a5b6a3795409840869",
+      "split": "test"
+    },
+    {
+      "identity": "m-087-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-087-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-087-01.jpg",
+      "uid": "CUHK:m-087-01",
+      "sketch_sha256": "f1ec76e438055fd78441885e39a89b91fd24d298e33780370dbcbd71f4eb65e1",
+      "photo_sha256": "e6c435f98289420cb39b3bcb5c16c7a56225d96d29805aa3fa973d7ec0504ec5",
+      "split": "train"
+    },
+    {
+      "identity": "m-088-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-088-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-088-01.jpg",
+      "uid": "CUHK:m-088-01",
+      "sketch_sha256": "46ab5f4856708c226fec88174f3b913e752e4ac1e6e59e6e53d912e25a76b1c5",
+      "photo_sha256": "1f39a26a4d1717986c65c9dcc1fe223ffcb9b7a067ecad2b645e776f574fc15e",
+      "split": "test"
+    },
+    {
+      "identity": "m-089-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-089-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-089-01.jpg",
+      "uid": "CUHK:m-089-01",
+      "sketch_sha256": "836ee66c9c8327af4d30fe76e103fba3908ce182d2119563632067e5075aec4d",
+      "photo_sha256": "c41632d83dc69ea7510fc191c46f777faf5d526227b36693c491dde3754bc937",
+      "split": "train"
+    },
+    {
+      "identity": "m-090-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-090-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-090-01.jpg",
+      "uid": "CUHK:m-090-01",
+      "sketch_sha256": "05568eb83ae202c178e45681d130748caf4281ed71511896bcf208b878f251e1",
+      "photo_sha256": "37bbfeea3742da5d30d532c5b06eef27d96079d473bf44f8d1a3dddf12e6bfca",
+      "split": "val"
+    },
+    {
+      "identity": "m-091-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-091-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-091-01.jpg",
+      "uid": "CUHK:m-091-01",
+      "sketch_sha256": "2e5d0c2ec28324feae127de5926d716a81a328b79cf62882a3bf19b370830f5a",
+      "photo_sha256": "fcfa600f77e130660cb692f24ec71e96f1e0d6dd56a05d565f3d937ec8e75747",
+      "split": "train"
+    },
+    {
+      "identity": "m-092-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-092-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-092-01.jpg",
+      "uid": "CUHK:m-092-01",
+      "sketch_sha256": "ed61ac63b28ce51ded9f981c3303265de16dff2892b92ad1ba93971ae1387ac0",
+      "photo_sha256": "2976bdd9b3be3788a90c05921f9143bbabd271af9ad9992c23fbac445fcb0d78",
+      "split": "train"
+    },
+    {
+      "identity": "m-093-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-093-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-093-01.jpg",
+      "uid": "CUHK:m-093-01",
+      "sketch_sha256": "6435ffd26d708af1ac5fe8fc420e28e6b1cd027398e6c7bc57d5ed28fc2baa62",
+      "photo_sha256": "56d6ab4f6f56e98366550de54b6ab9bd399a7e67bff4580b460bb72a2e9bb1bb",
+      "split": "train"
+    },
+    {
+      "identity": "m-094-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-094-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-094-01.jpg",
+      "uid": "CUHK:m-094-01",
+      "sketch_sha256": "c5964a8da9f1afbb9e78e0199a8da7649cc55a2cfe84cb809c250d149dfe8067",
+      "photo_sha256": "0c9abaeb267a69a1c0a539e973cb51c3dc9a5953ffb7e1e0d79a0cc40bbd1202",
+      "split": "train"
+    },
+    {
+      "identity": "m-095-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-095-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-095-01.jpg",
+      "uid": "CUHK:m-095-01",
+      "sketch_sha256": "7f618bbb8a8cb311b3a22f726f2ad87db508e850e9d8363e9c93d1d9193eb59f",
+      "photo_sha256": "facf3c50093b623f1931493124fd6536f1622bf41c87112b4e5364426301d510",
+      "split": "train"
+    },
+    {
+      "identity": "m-096-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-096-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-096-01.jpg",
+      "uid": "CUHK:m-096-01",
+      "sketch_sha256": "16270f7d352fd68c2e10cb18cfb1dd0ea68dce36760e57ad7ad9d1182f2d66e0",
+      "photo_sha256": "4aad93bfce31fc60e248d7080ecd250e96c94a39b8d936383d49c7c99b7f325c",
+      "split": "val"
+    },
+    {
+      "identity": "m-097-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-097-01.jpg",
+      "uid": "CUHK:m-097-01",
+      "sketch_sha256": "902303bae9d9a28c74e9d703761a095e7e0d3be8d9d86fe79437be196797e9b3",
+      "photo_sha256": "e0c02b3506ec99c27982564e7d19f7ca76feee38a3785309c2f039ecf873f8d5",
+      "split": "test"
+    },
+    {
+      "identity": "m-098-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-098-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-098-01.jpg",
+      "uid": "CUHK:m-098-01",
+      "sketch_sha256": "4f73a2b55b799176afabfe268321f354d01d36bec8a26d9dcbb258295a2f3e0e",
+      "photo_sha256": "0e02db11b77bf6de018300e131183ec19b9c68153417535f651ff171ababcdc6",
+      "split": "train"
+    },
+    {
+      "identity": "m-099-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-099-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-099-01.jpg",
+      "uid": "CUHK:m-099-01",
+      "sketch_sha256": "f046326b6337bca72a27ba596b99af26002acfe5234113a6b97cb28df906cd1a",
+      "photo_sha256": "70e4fabb62e1c1ab0163ad31ea8b56940986f6e3ce71b9959b3300e947e3caa1",
+      "split": "val"
+    },
+    {
+      "identity": "m-100-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-100-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-100-01.jpg",
+      "uid": "CUHK:m-100-01",
+      "sketch_sha256": "b23652be221d5d25bce301ec795dac8f7bf65a7267f685072a93f0ae912dcf52",
+      "photo_sha256": "bd3646a3aefbe2b3b0830003a8d020da93c36ec3984d78fa8032cb2f348f9b17",
+      "split": "train"
+    },
+    {
+      "identity": "m-101-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-101-01.jpg",
+      "uid": "CUHK:m-101-01",
+      "sketch_sha256": "d34edfb06e3f150a525e9af35de8ed102fdbc64c5888f9c41e5f5e3e2118b5d6",
+      "photo_sha256": "17f32f99c597f1302d41e655eaa1c9c90c0ee853cefdef7a5850e2f14a8db6fd",
+      "split": "test"
+    },
+    {
+      "identity": "m1-001-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-001-01.jpg",
+      "uid": "CUHK:m1-001-01",
+      "sketch_sha256": "d214618be0acf9eac60d179e3d8d4354563808b5a1b702572579d73b65697059",
+      "photo_sha256": "2932e5f3ca5280acf5636bfbe671b4d179fff5fd4a9648d6d361fcf661396984",
+      "split": "test"
+    },
+    {
+      "identity": "m1-002-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-002-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-002-01.jpg",
+      "uid": "CUHK:m1-002-01",
+      "sketch_sha256": "d914603b8e2df34ab36b27d6a114b6b66b8179d84c11fd1444675695d67ff257",
+      "photo_sha256": "6952335f0dcb32cfb9c349ba8265ce3761c74f3b3f9c2e672e389a6cb1c5f864",
+      "split": "train"
+    },
+    {
+      "identity": "m1-003-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-003-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-003-01.jpg",
+      "uid": "CUHK:m1-003-01",
+      "sketch_sha256": "0be741d14d156952a3aba5eef8f7456dfdf3d6f3115212254fff03b94a2786f8",
+      "photo_sha256": "331dd5ca73d06611c9bf8545c8c46853134c0299716a2092ca7b36739e47c5c7",
+      "split": "val"
+    },
+    {
+      "identity": "m1-004-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-004-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-004-01.jpg",
+      "uid": "CUHK:m1-004-01",
+      "sketch_sha256": "3a858f13728e2de6b4844a67705743001e8fc6bee74ef8548350565cadaaf3ac",
+      "photo_sha256": "0ea3faeb8a55058f35cd881b7a00db2db6ad09659c9742d9c1d15174b418a1b6",
+      "split": "train"
+    },
+    {
+      "identity": "m1-005-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-005-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-005-01.jpg",
+      "uid": "CUHK:m1-005-01",
+      "sketch_sha256": "283e1a347a72f9c7f9465a76598e9706ec4e3b91ab0098bee6294af94fac6fad",
+      "photo_sha256": "f5bade893d2d9bc49eaecfc0179538ab8487290b4fabcd6c1c3d29a9d024285f",
+      "split": "train"
+    },
+    {
+      "identity": "m1-006-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-006-01.jpg",
+      "uid": "CUHK:m1-006-01",
+      "sketch_sha256": "8ab201816aaf03e432752e3cb781f2ee9861d468488765f7558f655876034a57",
+      "photo_sha256": "68f526e5b30852ee19abea93ebfc230f7662feb8e730cc6f5c3c941f589cce23",
+      "split": "test"
+    },
+    {
+      "identity": "m1-007-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-007-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-007-01.jpg",
+      "uid": "CUHK:m1-007-01",
+      "sketch_sha256": "053e295afcc73a6bd198d51df0c215c82a3fa5885a31e4322a13a13186400694",
+      "photo_sha256": "e7dc5270acd5d1f4ceb6cd3896e02a38e90701c093f6f1110fa3bd0dda8e3f85",
+      "split": "val"
+    },
+    {
+      "identity": "m1-008-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-008-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-008-01.jpg",
+      "uid": "CUHK:m1-008-01",
+      "sketch_sha256": "9d3c2d9d41a0e71a3877cbd52d4bc64e527d89971b228ce54a60d8995a1dd9cb",
+      "photo_sha256": "88d41c7ba172a73c1a90574b549dd6979d9ef920def94e0bdca4c8860f7b5dc9",
+      "split": "train"
+    },
+    {
+      "identity": "m1-009-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-009-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-009-01.jpg",
+      "uid": "CUHK:m1-009-01",
+      "sketch_sha256": "dd59931477afdf93009448f8c5b22a4d2bcfabb7b3a8b520d5c0cdd5a822f30f",
+      "photo_sha256": "257e44612b236c43e263f29437d9c3b585166a43eb12a0c3cf1111ba64058be1",
+      "split": "train"
+    },
+    {
+      "identity": "m1-010-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-010-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-010-01.jpg",
+      "uid": "CUHK:m1-010-01",
+      "sketch_sha256": "b2d852b1831973f4a72660d18d11cb982ef4f31fa956d9d5326db6bbbe0794c8",
+      "photo_sha256": "17f8bc778b91e44107cc89455b4ddc17ac0ce0f97878f58f8d0076189d85beec",
+      "split": "train"
+    },
+    {
+      "identity": "m1-011-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-011-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-011-01.jpg",
+      "uid": "CUHK:m1-011-01",
+      "sketch_sha256": "e1ae494d743e92624f6e945a99e7028a25c78197e2a3955751295d4e91da7e7f",
+      "photo_sha256": "28c20b5904dc02ecf2d3979a64f3e853cf45eb98965e7fba76739c7134bc94d8",
+      "split": "train"
+    },
+    {
+      "identity": "m1-012-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-012-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-012-01.jpg",
+      "uid": "CUHK:m1-012-01",
+      "sketch_sha256": "43c727becedcdf75a27f618389123c766e7a5a331eee50bf82d0fdcd681b22db",
+      "photo_sha256": "c4666827969e699e6741256a0f30e67f8553258da99566db0a05e2ee9df0730c",
+      "split": "val"
+    },
+    {
+      "identity": "m1-013-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-013-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-013-01.jpg",
+      "uid": "CUHK:m1-013-01",
+      "sketch_sha256": "1da86ae10b09e15dfebc78c0f3f4280eacbdb00e80f219bf8cf17c46660e4668",
+      "photo_sha256": "3e870099c5ea76aae9bb71723c5781f931a7186c7c3d9c7ed6f458db077d575e",
+      "split": "train"
+    },
+    {
+      "identity": "m1-014-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-014-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-014-01.jpg",
+      "uid": "CUHK:m1-014-01",
+      "sketch_sha256": "1ffd31112b5642f951c11168faeb5934c538f7461000cb52047b5a04bf4023a2",
+      "photo_sha256": "c19c741f38b27cd14b6b9c77ce305ce6a26dc5d92af680301c311a9847a5e350",
+      "split": "train"
+    },
+    {
+      "identity": "m1-015-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-015-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-015-01.jpg",
+      "uid": "CUHK:m1-015-01",
+      "sketch_sha256": "12227aa1708ba7504073da67392b436be15a3dd11b0598e2a9bdf152796fd2a8",
+      "photo_sha256": "4f5098ebb471cfcad1c1e51fda129797666d598c432f1df9cb5f4faa0c6e00ea",
+      "split": "train"
+    },
+    {
+      "identity": "m1-016-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-016-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-016-01.jpg",
+      "uid": "CUHK:m1-016-01",
+      "sketch_sha256": "efd102302b7f1646d3c2e72d5d6d5bc64e033b5aebeed34a3cf14988a73768b4",
+      "photo_sha256": "78a933ed3f784ced1298a126dc756512b2caf59b2a398e892c1ed47de5959e24",
+      "split": "val"
+    },
+    {
+      "identity": "m1-017-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-017-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-017-01.jpg",
+      "uid": "CUHK:m1-017-01",
+      "sketch_sha256": "f7d38a7979222dbd2ad13d7fea6bd784b00a53311879f1e85f9c21ed6ecace43",
+      "photo_sha256": "0419b54443b62b79c06746b295a66a0c87269b1341a97f6c03e9e843154f96cc",
+      "split": "train"
+    },
+    {
+      "identity": "m1-018-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-018-01.jpg",
+      "uid": "CUHK:m1-018-01",
+      "sketch_sha256": "379df8ee045f3ad4ae0a33bee35a8d6b2cae48bd68928e36043ea0656acfe257",
+      "photo_sha256": "3bc661aa15db44ec77d0444287b2d5edb78998020ca071d3e06ee83d0dcce166",
+      "split": "test"
+    },
+    {
+      "identity": "m1-019-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-019-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-019-01.jpg",
+      "uid": "CUHK:m1-019-01",
+      "sketch_sha256": "2c4001c502073fab40fc69951736872edaa4115e71fa46adc3643966e24245c8",
+      "photo_sha256": "fed7223b038c06275d911859832fc244c833d214e42979d73f6978988f58fff4",
+      "split": "train"
+    },
+    {
+      "identity": "m1-020-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-020-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-020-01.jpg",
+      "uid": "CUHK:m1-020-01",
+      "sketch_sha256": "a2f61861abfbf7b55b54bb7cf2b5f3f59acf49e76ec3b00d191646f63b6c4e04",
+      "photo_sha256": "e9abe2c47ec919d4576caba6a97d06931216d01658142e81e7ae12b8dd78c342",
+      "split": "train"
+    },
+    {
+      "identity": "m1-021-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-021-01.jpg",
+      "uid": "CUHK:m1-021-01",
+      "sketch_sha256": "28a5826771748730f977c1cf702a0e5ebf6500a7314883aee52bf1a14bd5fe24",
+      "photo_sha256": "d17ccfdc06d25b4aaa5ff64c32b1eabebb746bbc65e440869e85531b1e988cb0",
+      "split": "test"
+    },
+    {
+      "identity": "m1-022-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-022-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-022-01.jpg",
+      "uid": "CUHK:m1-022-01",
+      "sketch_sha256": "0a1b566de6423fa3a81299cead96a259f5c607687d3b42e39470fd2002543f3d",
+      "photo_sha256": "9bef6d953ffe621e4c2c758f22ae395704da5cf27d4a5a3b514a0e6d7001ff28",
+      "split": "train"
+    },
+    {
+      "identity": "m1-023-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-023-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-023-01.jpg",
+      "uid": "CUHK:m1-023-01",
+      "sketch_sha256": "06937be07fff1c4787d73cef2ded4792b91eafa22d1743ff7013b4f5e1e02282",
+      "photo_sha256": "6774ec77ac673fa68d35792a6b9e4042e906542d47d81c1ec7f570998347f4ff",
+      "split": "train"
+    },
+    {
+      "identity": "m1-024-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-024-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-024-01.jpg",
+      "uid": "CUHK:m1-024-01",
+      "sketch_sha256": "e61d93bfb25890475886b5f3462f539d96b25154df69024bd604d47e1ae55d60",
+      "photo_sha256": "6f08fbab4d0412a7f821c057ade8978f37c7a22e3322275e8349aeb8213a1c96",
+      "split": "train"
+    },
+    {
+      "identity": "m1-025-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-025-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-025-01.jpg",
+      "uid": "CUHK:m1-025-01",
+      "sketch_sha256": "a3132e01e6536a3561fe01c38beee714af5ed3b71b51bbd2706ced4c44d69049",
+      "photo_sha256": "406fd9126c9f5ecb394b80ffad5acf6a88229603a501dd722eb703f5c2cadc55",
+      "split": "train"
+    },
+    {
+      "identity": "m1-026-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-026-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-026-01.jpg",
+      "uid": "CUHK:m1-026-01",
+      "sketch_sha256": "f545bcb554f92d9545ea935b429c311befaa19f1c2f5287f440a0cf709ba145d",
+      "photo_sha256": "ff4222f37520fea4e8db9fbf7dff0d588b2a9432633c71c1c0e1179e8d2a7edf",
+      "split": "train"
+    },
+    {
+      "identity": "m1-027-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-027-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-027-01.jpg",
+      "uid": "CUHK:m1-027-01",
+      "sketch_sha256": "222b980d5795539ad81f64029fd839360ed545ae87245258f071f3c622a14cfc",
+      "photo_sha256": "1846ce0c6fd1d89f45e73fd75db1d6dac09e62757ebed00d23d8a759525afcb6",
+      "split": "train"
+    },
+    {
+      "identity": "m1-028-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-028-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-028-01.jpg",
+      "uid": "CUHK:m1-028-01",
+      "sketch_sha256": "c07d7cb48c4b268e7450fdcae24d517fe20a7b4c6aae844a41cd17da6738095e",
+      "photo_sha256": "b0e2d560f2af942764c7183e78f9c5367538c1e00d5799b4157d8acf6bb3cc74",
+      "split": "train"
+    },
+    {
+      "identity": "m1-029-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-029-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-029-01.jpg",
+      "uid": "CUHK:m1-029-01",
+      "sketch_sha256": "495ac92fbf051a3330886a7bb9a760c2b5624f9720c32922a451b285a4a82c07",
+      "photo_sha256": "f70489012ed74969fa0c9080f57f402f4a9635a728d2bdd777a9cc25f2736054",
+      "split": "train"
+    },
+    {
+      "identity": "m1-030-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-030-01.jpg",
+      "uid": "CUHK:m1-030-01",
+      "sketch_sha256": "bc5d49462ec7e966da1be8b6ad48ea8e9959b82c7470400cae7ec4a4acd2d775",
+      "photo_sha256": "a0e10a39255ca5addf7ce0552b703c304cfc4ba7790c8cdef5a7921e65ff0f4b",
+      "split": "test"
+    },
+    {
+      "identity": "m1-031-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-031-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-031-01.jpg",
+      "uid": "CUHK:m1-031-01",
+      "sketch_sha256": "0ea8f351b7f96122fb820d6371dee7e8cbc007900bea7d6aadd13f45363f37a9",
+      "photo_sha256": "fe037853eda484fc6e44ba90073725f73a6556d808ff18ba2e376e906072b74e",
+      "split": "val"
+    },
+    {
+      "identity": "m1-032-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-032-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-032-01.jpg",
+      "uid": "CUHK:m1-032-01",
+      "sketch_sha256": "4fccf1491e0eb078732911368ce5dcbcb20b0774d049a52b4404e355157a42e2",
+      "photo_sha256": "0358ea1962ec21391117112cb8838487c90b6c76bffa5d7266df9b136f0eeafa",
+      "split": "train"
+    },
+    {
+      "identity": "m1-033-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-033-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-033-01.jpg",
+      "uid": "CUHK:m1-033-01",
+      "sketch_sha256": "37d171cf00acbb82ebe4f0a560cd5910c034facd0ea4995d6cde947feb3edf45",
+      "photo_sha256": "d801c454492037295a7ef8b9ddac06f9a457ce30e47583c8e11a8cbcde3ec308",
+      "split": "train"
+    },
+    {
+      "identity": "m1-034-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-034-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-034-01.jpg",
+      "uid": "CUHK:m1-034-01",
+      "sketch_sha256": "673305aa00e2b3c07d494ced114b750ccd8ad666b2b30577fb08c93a37638789",
+      "photo_sha256": "2761c0fc174773b5f798054479cd9191613682f0b7fa34963868ee7c11b81709",
+      "split": "train"
+    },
+    {
+      "identity": "m1-035-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-035-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-035-01.jpg",
+      "uid": "CUHK:m1-035-01",
+      "sketch_sha256": "1a55afff25877a82ba70c90229e66c9154d7301a1455f35945768a03c63ad695",
+      "photo_sha256": "42fbd247f23db1aa97c8801f8c8856a191ae3faaec2813fffbf9242490c13bc7",
+      "split": "train"
+    },
+    {
+      "identity": "m1-036-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-036-01.jpg",
+      "uid": "CUHK:m1-036-01",
+      "sketch_sha256": "ebb7a26908e96bc9b611fe17d8a2800833fde2c12704cbf370077fe1705ae8b3",
+      "photo_sha256": "a1d5538772bf261b1f8c433655c29ad90a87da4cd3068728dcf320dee56902b0",
+      "split": "test"
+    },
+    {
+      "identity": "m1-037-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-037-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-037-01.jpg",
+      "uid": "CUHK:m1-037-01",
+      "sketch_sha256": "6e9febabed3771644835d3c047b2075d034658f372a4f96ad09cfd7aa7dc972f",
+      "photo_sha256": "8d0b928e23c2387d22fdf6d6768ada41ad9462e53f3921b557f5723144230a54",
+      "split": "val"
+    },
+    {
+      "identity": "m1-038-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-038-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-038-01.jpg",
+      "uid": "CUHK:m1-038-01",
+      "sketch_sha256": "a508288a6dfc9aafc2448dbfa6eaac677c9a1fd8ff0a6b81994c7cd64d8bdf42",
+      "photo_sha256": "2712a4d527f42ee56c6a1fcd1b03ada40e053bc1f36cecf6ffebb1a73c327faa",
+      "split": "val"
+    },
+    {
+      "identity": "m1-039-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-039-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-039-01.jpg",
+      "uid": "CUHK:m1-039-01",
+      "sketch_sha256": "395eafdd7390c58b8abe5fe59cda61f7f834244a81d199537396ae8950f08137",
+      "photo_sha256": "f42c386d8c5762f20dc7004c16e2cbc447d49ec0a931535f5dd0fec9742c33ae",
+      "split": "train"
+    },
+    {
+      "identity": "m1-040-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-040-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-040-01.jpg",
+      "uid": "CUHK:m1-040-01",
+      "sketch_sha256": "5348c0debd1a101f4a2fc56893fcd62ff170cbaed8b05172c0667080f61ea010",
+      "photo_sha256": "5ec7871e1d3e068832410cb3e58b462e589fb3ee775bdb24a6241401327b2cf6",
+      "split": "train"
+    },
+    {
+      "identity": "m1-041-01",
+      "source": "CUHK",
+      "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+      "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-041-01.jpg",
+      "uid": "CUHK:m1-041-01",
+      "sketch_sha256": "847c68f38d89c065ecc8b57c1c96352c4e61de0928907d0ff48776a54fd7fc67",
+      "photo_sha256": "5834c16b4ac2d84c26af417e58f3e8bd072dcac61b877a857425461f009eb5a8",
+      "split": "test"
+    }
+  ],
+  "counts": {
+    "test": 37,
+    "train": 114,
+    "val": 37
+  }
+}

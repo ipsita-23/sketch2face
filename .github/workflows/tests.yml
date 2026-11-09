@@ -1,0 +1,22 @@
+name: Python checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.22"
+          python-version: "3.11"
+          enable-cache: true
+      - run: uv sync --locked --extra dev
+      - run: uv run ruff check sketch2face scripts tests app.py
+      - run: uv run pytest -q

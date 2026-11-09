@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sketch2face"
+version = "0.1.0"
+description = "Cross-modal sketch-to-photo retrieval with reproducible rank-k evaluation"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "torch>=2.4,<3", "torchvision>=0.19,<1", "numpy>=1.26,<3",
+  "Pillow>=10,<13", "matplotlib>=3.8,<4", "streamlit>=1.40,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.8,<1"]
+documents = ["python-docx>=1.1,<2", "python-pptx>=1,<2", "reportlab>=4,<5", "pymupdf>=1.24,<2"]
+
+[project.scripts]
+sketch2face = "sketch2face.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sketch2face*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

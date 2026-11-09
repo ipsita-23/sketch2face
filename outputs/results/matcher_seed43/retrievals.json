@@ -1,0 +1,2111 @@
+[
+  {
+    "query": "CUHK:f-005-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-005-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:f-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-005-01.jpg",
+        "score": 0.7866232991218567
+      },
+      {
+        "identity": "CUHK:f-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-021-01.jpg",
+        "score": 0.5779818296432495
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.5696303248405457
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.5517260432243347
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.3016153872013092
+      },
+      {
+        "identity": "CUHK:f-015-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+        "score": 0.25617432594299316
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.2305731475353241
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.2253584861755371
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.2064138650894165
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.18194420635700226
+      }
+    ]
+  },
+  {
+    "query": "CUHK:f-015-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-015-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:f-015-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+        "score": 0.7247436046600342
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.5384505391120911
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.4971838593482971
+      },
+      {
+        "identity": "CUHK:f-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-021-01.jpg",
+        "score": 0.47679775953292847
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.4683760404586792
+      },
+      {
+        "identity": "CUHK:f-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-005-01.jpg",
+        "score": 0.4378490447998047
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.3726021349430084
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.35918691754341125
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.3271518051624298
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.2506403923034668
+      }
+    ]
+  },
+  {
+    "query": "CUHK:f-019-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-019-01.jpg",
+    "correct_rank": 2,
+    "top": [
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.5216682553291321
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.5083036422729492
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.4594499170780182
+      },
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.38342180848121643
+      },
+      {
+        "identity": "CUHK:f-015-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+        "score": 0.2979332208633423
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.2418716996908188
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.21813328564167023
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.2075158953666687
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.150689497590065
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.12315289676189423
+      }
+    ]
+  },
+  {
+    "query": "CUHK:f-021-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-021-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:f-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-021-01.jpg",
+        "score": 0.7741121649742126
+      },
+      {
+        "identity": "CUHK:f-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-005-01.jpg",
+        "score": 0.6251539587974548
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.37313222885131836
+      },
+      {
+        "identity": "CUHK:f-015-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+        "score": 0.3427947163581848
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.2994421422481537
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.26345163583755493
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.2591017186641693
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.25693368911743164
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.2008611410856247
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.19874513149261475
+      }
+    ]
+  },
+  {
+    "query": "CUHK:f-024-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-024-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.6878399848937988
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.5168488621711731
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.49446454644203186
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.4026833176612854
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.3678487241268158
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.3048723638057709
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.29316648840904236
+      },
+      {
+        "identity": "CUHK:f-015-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+        "score": 0.2680538594722748
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.23374226689338684
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.23062917590141296
+      }
+    ]
+  },
+  {
+    "query": "CUHK:f-043-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f-043-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:f-043-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-043-01.jpg",
+        "score": 0.519302248954773
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.41534751653671265
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.3905968964099884
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.35949304699897766
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.3329266905784607
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.3109171688556671
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.3106817901134491
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.2626578211784363
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.2421317994594574
+      },
+      {
+        "identity": "CUHK:m-081-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-081-01.jpg",
+        "score": 0.2263558804988861
+      }
+    ]
+  },
+  {
+    "query": "CUHK:f1-005-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/f1-005-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.7739357352256775
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.5305652618408203
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.4078487157821655
+      },
+      {
+        "identity": "CUHK:f-015-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-015-01.jpg",
+        "score": 0.3248644471168518
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.3069438636302948
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.2914458215236664
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.2593957781791687
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.2371542751789093
+      },
+      {
+        "identity": "CUHK:f-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-005-01.jpg",
+        "score": 0.20056545734405518
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.15563403069972992
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-008-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-008-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-008-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-008-01.jpg",
+        "score": 0.6677305102348328
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.6342129707336426
+      },
+      {
+        "identity": "CUHK:m-050-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+        "score": 0.45133912563323975
+      },
+      {
+        "identity": "CUHK:m-088-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-088-01.jpg",
+        "score": 0.37618499994277954
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.35406285524368286
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.28305262327194214
+      },
+      {
+        "identity": "CUHK:m-074-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+        "score": 0.28006407618522644
+      },
+      {
+        "identity": "CUHK:f-043-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-043-01.jpg",
+        "score": 0.21674475073814392
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.21184273064136505
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.13043658435344696
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-019-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-019-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.7577378153800964
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.5547658205032349
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.48007214069366455
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.4683558940887451
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.46630555391311646
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.45029377937316895
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.4403500258922577
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.3889968991279602
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.36941850185394287
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.3592362105846405
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-024-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-024-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.6034178733825684
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.4971272647380829
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.4315045177936554
+      },
+      {
+        "identity": "CUHK:m-081-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-081-01.jpg",
+        "score": 0.41398507356643677
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.36453819274902344
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.34245744347572327
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.3361666798591614
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.32717210054397583
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.3113408386707306
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.2973794639110565
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-031-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-031-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.7024306058883667
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.550458550453186
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.5447537899017334
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.5378426909446716
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.5211816430091858
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.37500816583633423
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.2776314318180084
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.2525154948234558
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.24944233894348145
+      },
+      {
+        "identity": "CUHK:m-074-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+        "score": 0.18160630762577057
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-033-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-033-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.68398118019104
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.4874154031276703
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.4400663375854492
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.42365431785583496
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.3880678117275238
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.38689926266670227
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.33950647711753845
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.3077728748321533
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.3027258515357971
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.29125484824180603
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-035-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-035-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.448769211769104
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.31179946660995483
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.24559351801872253
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.1646013706922531
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.14531777799129486
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.10993397235870361
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.02122240886092186
+      },
+      {
+        "identity": "CUHK:f-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-005-01.jpg",
+        "score": 0.021164629608392715
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.003954798448830843
+      },
+      {
+        "identity": "CUHK:m-008-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-008-01.jpg",
+        "score": -0.009525761008262634
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-039-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-039-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.7791025042533875
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.6121682524681091
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.5635589957237244
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.3679446578025818
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.34453970193862915
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.33819764852523804
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.3363592028617859
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.3352024257183075
+      },
+      {
+        "identity": "CUHK:f-043-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-043-01.jpg",
+        "score": 0.31960052251815796
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.2596214711666107
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-045-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-045-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.6114745140075684
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.4998205900192261
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.41646048426628113
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.3878074586391449
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.3645508587360382
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.3433380424976349
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.30091121792793274
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.287007600069046
+      },
+      {
+        "identity": "CUHK:m-008-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-008-01.jpg",
+        "score": 0.26106369495391846
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.2574475109577179
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-049-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-049-01.jpg",
+    "correct_rank": 2,
+    "top": [
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.6500349640846252
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.6273329854011536
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.5558562874794006
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.5510686039924622
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.4776900112628937
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.4650880694389343
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.4146344065666199
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.3964513838291168
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.3818635642528534
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.3658388555049896
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-050-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-050-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-050-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+        "score": 0.37590956687927246
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.3223159909248352
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.3202526569366455
+      },
+      {
+        "identity": "CUHK:m-081-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-081-01.jpg",
+        "score": 0.30382633209228516
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.28955262899398804
+      },
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.2764386832714081
+      },
+      {
+        "identity": "CUHK:m-088-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-088-01.jpg",
+        "score": 0.2537652850151062
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.2484630048274994
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.22906213998794556
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.22449344396591187
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-053-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-053-01.jpg",
+    "correct_rank": 2,
+    "top": [
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.7063596844673157
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.6989485621452332
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.5436135530471802
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.4718126356601715
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.4650222957134247
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.43482476472854614
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.40859881043434143
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.38482755422592163
+      },
+      {
+        "identity": "CUHK:m-074-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+        "score": 0.2538335919380188
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.22953280806541443
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-056-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-056-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.7275497317314148
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.6749540567398071
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.5019621849060059
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.48952025175094604
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.46075019240379333
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.4496040940284729
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.37538301944732666
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.3415747284889221
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.3274039328098297
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.29814112186431885
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-059-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-059-01.jpg",
+    "correct_rank": 2,
+    "top": [
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.2686166763305664
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.26106688380241394
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.2432282418012619
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.2404518574476242
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.22744862735271454
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.22422878444194794
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.16733188927173615
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.10139697045087814
+      },
+      {
+        "identity": "CUHK:f-043-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-043-01.jpg",
+        "score": 0.04253143444657326
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.010026023723185062
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-064-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-064-01.jpg",
+    "correct_rank": 2,
+    "top": [
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.6120854616165161
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.5741896033287048
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.5486332774162292
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.5044288039207458
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.48812416195869446
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.4768558442592621
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.44005584716796875
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.41213148832321167
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.35660815238952637
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.33777591586112976
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-068-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-068-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.6460908055305481
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.42005082964897156
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.39033153653144836
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.3880597949028015
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.3745010793209076
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.28607288002967834
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.28319883346557617
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.2331172674894333
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.21681421995162964
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.1940246820449829
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-074-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-074-01.jpg",
+    "correct_rank": 7,
+    "top": [
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.5340606570243835
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.46985265612602234
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.4477042555809021
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.40886467695236206
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.38629385828971863
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.3829612731933594
+      },
+      {
+        "identity": "CUHK:m-074-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+        "score": 0.35748758912086487
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.34982457756996155
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.34245121479034424
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.30153340101242065
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-075-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-075-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.6378733515739441
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.45547065138816833
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.44662800431251526
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.43281564116477966
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.4196736216545105
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.4192742705345154
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.39103880524635315
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.3660300374031067
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.2749543786048889
+      },
+      {
+        "identity": "CUHK:m-081-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-081-01.jpg",
+        "score": 0.27105000615119934
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-077-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-077-01.jpg",
+    "correct_rank": 2,
+    "top": [
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.257551372051239
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.22636625170707703
+      },
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.2243349701166153
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.18824045360088348
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.16127106547355652
+      },
+      {
+        "identity": "CUHK:m-050-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+        "score": 0.1590861678123474
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.1330508589744568
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.12881380319595337
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.10616818070411682
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.1043597087264061
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-081-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-081-01.jpg",
+    "correct_rank": 3,
+    "top": [
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.3100578486919403
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.28001320362091064
+      },
+      {
+        "identity": "CUHK:m-081-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-081-01.jpg",
+        "score": 0.2646477222442627
+      },
+      {
+        "identity": "CUHK:m-086-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-086-01.jpg",
+        "score": 0.24917368590831757
+      },
+      {
+        "identity": "CUHK:m-050-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+        "score": 0.24875128269195557
+      },
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.24260705709457397
+      },
+      {
+        "identity": "CUHK:f-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-021-01.jpg",
+        "score": 0.1308930367231369
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.11696126312017441
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.11527466773986816
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.09800396859645844
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-086-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-086-01.jpg",
+    "correct_rank": 4,
+    "top": [
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.33206555247306824
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.3298115134239197
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.2856437563896179
+      },
+      {
+        "identity": "CUHK:m-086-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-086-01.jpg",
+        "score": 0.28126436471939087
+      },
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.27981147170066833
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.2361658811569214
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.23563362658023834
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.22493867576122284
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.21422576904296875
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.20431476831436157
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-088-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-088-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-088-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-088-01.jpg",
+        "score": 0.5565351247787476
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.4947720170021057
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.49086183309555054
+      },
+      {
+        "identity": "CUHK:m-008-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-008-01.jpg",
+        "score": 0.4032291769981384
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.38718119263648987
+      },
+      {
+        "identity": "CUHK:m-064-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-064-01.jpg",
+        "score": 0.3385526239871979
+      },
+      {
+        "identity": "CUHK:m-050-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+        "score": 0.30054837465286255
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.21980665624141693
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.21492017805576324
+      },
+      {
+        "identity": "CUHK:m-074-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+        "score": 0.16961818933486938
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-097-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-097-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.5816040635108948
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.5413486361503601
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.49668562412261963
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.4944920837879181
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.4311971068382263
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.4108591079711914
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.39811432361602783
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.383331835269928
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.34648752212524414
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.3174979090690613
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m-101-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m-101-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.4534587860107422
+      },
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.41485926508903503
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.34214797616004944
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.3166232705116272
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.31098657846450806
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.2740520238876343
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.25022172927856445
+      },
+      {
+        "identity": "CUHK:m-074-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-074-01.jpg",
+        "score": 0.2168993353843689
+      },
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.19202262163162231
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.1690370738506317
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-001-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-001-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.5321134924888611
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.45098644495010376
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.4199580252170563
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.3361837863922119
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.30202847719192505
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.299300879240036
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.27706050872802734
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.27356430888175964
+      },
+      {
+        "identity": "CUHK:m-086-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-086-01.jpg",
+        "score": 0.2632506489753723
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.25759971141815186
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-006-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-006-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.7139089107513428
+      },
+      {
+        "identity": "CUHK:m-008-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-008-01.jpg",
+        "score": 0.2795374095439911
+      },
+      {
+        "identity": "CUHK:m-035-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-035-01.jpg",
+        "score": 0.24317163228988647
+      },
+      {
+        "identity": "CUHK:m-088-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-088-01.jpg",
+        "score": 0.2299806922674179
+      },
+      {
+        "identity": "CUHK:f-043-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-043-01.jpg",
+        "score": 0.17991437017917633
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.15114884078502655
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.12095651030540466
+      },
+      {
+        "identity": "CUHK:m-050-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-050-01.jpg",
+        "score": 0.11018889397382736
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.04194895923137665
+      },
+      {
+        "identity": "CUHK:m-059-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-059-01.jpg",
+        "score": 0.01677439548075199
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-018-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-018-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m1-018-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-018-01.jpg",
+        "score": 0.5615535974502563
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.41501274704933167
+      },
+      {
+        "identity": "CUHK:m1-006-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-006-01.jpg",
+        "score": 0.37205350399017334
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.3060876429080963
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.2434084713459015
+      },
+      {
+        "identity": "CUHK:m-075-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-075-01.jpg",
+        "score": 0.22387872636318207
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.18503525853157043
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.17786012589931488
+      },
+      {
+        "identity": "CUHK:m-101-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-101-01.jpg",
+        "score": 0.1568373441696167
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.13919733464717865
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-021-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-021-01.jpg",
+    "correct_rank": 8,
+    "top": [
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.5183776617050171
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.4917016923427582
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.4902796745300293
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.47274258732795715
+      },
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.37653085589408875
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.36551985144615173
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.3606257736682892
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.35875454545021057
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.30355826020240784
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.2807669937610626
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-030-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-030-01.jpg",
+    "correct_rank": 6,
+    "top": [
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.44029420614242554
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.42871081829071045
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.3650512099266052
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.3240855634212494
+      },
+      {
+        "identity": "CUHK:m-031-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-031-01.jpg",
+        "score": 0.31435590982437134
+      },
+      {
+        "identity": "CUHK:m1-030-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-030-01.jpg",
+        "score": 0.3006899356842041
+      },
+      {
+        "identity": "CUHK:m-053-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-053-01.jpg",
+        "score": 0.29140082001686096
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.2700807452201843
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.26345449686050415
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.2622957229614258
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-036-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-036-01.jpg",
+    "correct_rank": 1,
+    "top": [
+      {
+        "identity": "CUHK:m1-036-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-036-01.jpg",
+        "score": 0.6531583070755005
+      },
+      {
+        "identity": "CUHK:m-068-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-068-01.jpg",
+        "score": 0.45536327362060547
+      },
+      {
+        "identity": "CUHK:f1-005-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f1-005-01.jpg",
+        "score": 0.45500922203063965
+      },
+      {
+        "identity": "CUHK:m1-021-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-021-01.jpg",
+        "score": 0.4162636399269104
+      },
+      {
+        "identity": "CUHK:f-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-019-01.jpg",
+        "score": 0.38726431131362915
+      },
+      {
+        "identity": "CUHK:m-049-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-049-01.jpg",
+        "score": 0.34385809302330017
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.3396701216697693
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.3282988369464874
+      },
+      {
+        "identity": "CUHK:m-039-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-039-01.jpg",
+        "score": 0.28404101729393005
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.2830038070678711
+      }
+    ]
+  },
+  {
+    "query": "CUHK:m1-041-01",
+    "sketch": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/sketches/m1-041-01.jpg",
+    "correct_rank": 6,
+    "top": [
+      {
+        "identity": "CUHK:m-077-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-077-01.jpg",
+        "score": 0.520682692527771
+      },
+      {
+        "identity": "CUHK:m-019-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-019-01.jpg",
+        "score": 0.5168293118476868
+      },
+      {
+        "identity": "CUHK:m-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-024-01.jpg",
+        "score": 0.5097540616989136
+      },
+      {
+        "identity": "CUHK:m-045-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-045-01.jpg",
+        "score": 0.48417457938194275
+      },
+      {
+        "identity": "CUHK:m-033-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-033-01.jpg",
+        "score": 0.38511261343955994
+      },
+      {
+        "identity": "CUHK:m1-041-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-041-01.jpg",
+        "score": 0.32393383979797363
+      },
+      {
+        "identity": "CUHK:m1-001-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m1-001-01.jpg",
+        "score": 0.27817171812057495
+      },
+      {
+        "identity": "CUHK:m-097-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-097-01.jpg",
+        "score": 0.2780705392360687
+      },
+      {
+        "identity": "CUHK:f-024-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/f-024-01.jpg",
+        "score": 0.27021026611328125
+      },
+      {
+        "identity": "CUHK:m-056-01",
+        "photo": "/Users/theashgen/.t3/projects/sketch2face/data/cufs/CUHK/photos/m-056-01.jpg",
+        "score": 0.2606402635574341
+      }
+    ]
+  }
+]

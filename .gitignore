@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+data/
+runs/
+tmp/
+!data/.gitkeep
+# Local image examples contain dataset faces; retain their original-author rights.
+outputs/results/*/retrieval_examples.png
+outputs/figures/dataset_pairs.png
+outputs/figures/hard_queries.png
+outputs/figures/successful_retrieval.png
+outputs/academic/presentation/

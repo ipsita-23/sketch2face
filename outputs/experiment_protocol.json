@@ -1,0 +1,45 @@
+{
+  "manifest_fingerprint": "34f06671f50fba99fe89dda92c0dd066f3972291a20570e26aa46c72e224a41b",
+  "epochs": 20,
+  "warmup_epochs": 3,
+  "image_size": 224,
+  "batch_size": 32,
+  "learning_rate": 0.0003,
+  "encoder_learning_rate": 3e-05,
+  "weight_decay": 0.0001,
+  "temperature": 0.07,
+  "embedding_dim": 256,
+  "checkpoint_selection": "Validation rank-1, then validation MRR; earliest exact tie",
+  "primary_run": "matcher",
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "ablation": "shared_input: remove residual modality adapters",
+  "runs": [
+    {
+      "name": "baseline",
+      "baseline": true,
+      "seed": 42
+    },
+    {
+      "name": "matcher",
+      "seed": 42
+    },
+    {
+      "name": "matcher_seed43",
+      "seed": 43
+    },
+    {
+      "name": "matcher_seed44",
+      "seed": 44
+    },
+    {
+      "name": "shared_input",
+      "seed": 42,
+      "adapters": false
+    }
+  ],
+  "test_policy": "Fixed experiment matrix, evaluated after all runs have completed. No test-driven tuning."
+}
