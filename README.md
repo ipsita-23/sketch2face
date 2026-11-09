@@ -19,16 +19,18 @@ Across three training seeds, rank-1 averages **69.37% ± 3.12 percentage points*
 
 Download the [college report](outputs/academic/project_report.pdf), [IEEE-style paper](outputs/academic/research_paper.pdf), [presentation](outputs/academic/presentation.pptx), and [viva guide](outputs/academic/viva_guide.md). Editable Word files and presentation speaker notes are in [the academic folder](outputs/academic).
 
-## Run the demo
+## Run the website
 
 Python 3.11–3.13 is required. The current workspace contains the dataset, trained checkpoints, and experiment outputs after the experiment script completes.
 
 ```bash
 uv sync --extra dev --extra documents
-uv run streamlit run app.py
+uv run uvicorn sketch2face.web:app --host 127.0.0.1 --port 8000
 ```
 
-Open the local URL printed by Streamlit. Select **Dataset examples**, choose a held-out sketch, and click **Find matching photos**. The app ranks all 37 held-out photos and shows the correct photo's rank. Alternatively, upload a sketch and up to 200 candidate photos.
+Open **http://localhost:8000**. Upload a sketch or click **Try a sample**, choose the built-in gallery or **My own photos**, then click **Find matching faces**. You get the top candidate, alternative matches, cosine similarities, and a JSON export. The built-in gallery contains all 37 held-out photos; custom galleries accept up to 200 candidate images.
+
+See the [website and upload API guide](docs/website.md). Interactive API documentation is at `/docs`, with the contract at `/openapi.json` and [a saved copy](docs/website-openapi.json). The earlier Streamlit demo remains available with `uv run streamlit run app.py`.
 
 The main checkpoint is `runs/matcher/best.pt`. Scores are cosine similarities, not probabilities or evidence of identity. Upload tightly cropped, aligned faces; the app does not detect or align faces automatically.
 

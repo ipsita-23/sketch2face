@@ -1,0 +1,327 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Sketch2Face website API",
+    "description": "Local cross-modal sketch-to-photo retrieval. Similarities are not identity probabilities.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/status": {
+      "get": {
+        "summary": "Status",
+        "operationId": "status_api_status_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/examples": {
+      "get": {
+        "summary": "Examples",
+        "operationId": "examples_api_examples_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/images/{identity}/{modality}": {
+      "get": {
+        "summary": "Example Image",
+        "operationId": "example_image_api_images__identity___modality__get",
+        "parameters": [
+          {
+            "name": "identity",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Identity"
+            }
+          },
+          {
+            "name": "modality",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "enum": [
+                "sketch",
+                "photo"
+              ],
+              "type": "string",
+              "title": "Modality"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown test image"
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/match": {
+      "post": {
+        "summary": "Match",
+        "operationId": "match_api_match_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_match_api_match_post"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MatchResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Image upload limits exceeded"
+          },
+          "422": {
+            "description": "Invalid images or input combination"
+          },
+          "503": {
+            "description": "Model or dataset unavailable"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Body_match_api_match_post": {
+        "properties": {
+          "sketch": {
+            "anyOf": [
+              {
+                "type": "string",
+                "contentMediaType": "application/octet-stream"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sketch"
+          },
+          "example_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Example Id"
+          },
+          "gallery_mode": {
+            "type": "string",
+            "enum": [
+              "dataset",
+              "uploaded"
+            ],
+            "title": "Gallery Mode",
+            "default": "dataset"
+          },
+          "gallery": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string",
+                  "contentMediaType": "application/octet-stream"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Gallery"
+          },
+          "top_k": {
+            "type": "integer",
+            "maximum": 10.0,
+            "minimum": 1.0,
+            "title": "Top K",
+            "default": 5
+          }
+        },
+        "type": "object",
+        "title": "Body_match_api_match_post"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "Match": {
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "title": "Rank"
+          },
+          "candidate_id": {
+            "type": "string",
+            "title": "Candidate Id"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "similarity": {
+            "type": "number",
+            "title": "Similarity"
+          },
+          "thumbnail": {
+            "type": "string",
+            "title": "Thumbnail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "rank",
+          "candidate_id",
+          "label",
+          "similarity",
+          "thumbnail"
+        ],
+        "title": "Match"
+      },
+      "MatchResponse": {
+        "properties": {
+          "matches": {
+            "items": {
+              "$ref": "#/components/schemas/Match"
+            },
+            "type": "array",
+            "title": "Matches"
+          },
+          "gallery_size": {
+            "type": "integer",
+            "title": "Gallery Size"
+          },
+          "gallery_mode": {
+            "type": "string",
+            "enum": [
+              "dataset",
+              "uploaded"
+            ],
+            "title": "Gallery Mode"
+          },
+          "elapsed_ms": {
+            "type": "integer",
+            "title": "Elapsed Ms"
+          },
+          "correct_rank": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Correct Rank"
+          }
+        },
+        "type": "object",
+        "required": [
+          "matches",
+          "gallery_size",
+          "gallery_mode",
+          "elapsed_ms"
+        ],
+        "title": "MatchResponse"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

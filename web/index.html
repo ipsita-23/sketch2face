@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Upload a face sketch and search a photo gallery with Sketch2Face."
+    />
+    <title>Sketch2Face — Find the face behind the sketch</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <header class="header wrap">
+      <a class="brand" href="/" aria-label="Sketch2Face home"
+        ><span class="brand-icon">s<span>2</span>f</span
+        ><span
+          >sketch<span class="brand-light">2</span>face<span class="brand-dot"
+            >.</span
+          ></span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#workspace" class="nav-active">The workspace</a
+        ><a href="#how-it-works"
+          >How it works <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+      <span id="model-status" class="status"
+        ><span></span>Connecting to model</span
+      >
+    </header>
+    <main class="wrap">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">
+            <span class="tiny-line"></span>FROM PENCIL TO POSSIBILITY
+          </p>
+          <h1>Find the face<br />behind the <em>sketch.</em></h1>
+          <p class="hero-copy">
+            Turn a face sketch into a shortlist of matching photos.<br />Upload
+            a drawing. Add your gallery. Let the search begin.
+          </p>
+        </div>
+        <aside class="hero-aside">
+          <span class="aside-symbol" aria-hidden="true">✳</span>
+          <p>A different medium.<br />The same face.</p>
+          <span>SKETCH → PHOTO RETRIEVAL</span>
+        </aside>
+      </section>
+      <section
+        id="workspace"
+        class="workspace"
+        aria-label="Face matching workspace"
+      >
+        <div class="input-panel">
+          <div class="section-heading">
+            <span class="step-number">01</span>
+            <div>
+              <h2>Your sketch</h2>
+              <p>The face you’re looking for.</p>
+            </div>
+            <span class="optional-label">QUERY IMAGE</span>
+          </div>
+          <label
+            class="dropzone"
+            id="sketch-drop"
+            for="sketch-file"
+            tabindex="0"
+          >
+            <input
+              type="file"
+              id="sketch-file"
+              accept="image/jpeg,image/png,image/bmp"
+              class="file-input"
+            />
+            <div id="sketch-empty">
+              <div class="upload-icon">
+                <svg viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                  <path
+                    d="M16 21V6m-6 6 6-6 6 6M6 21v5h20v-5"
+                    stroke="currentColor"
+                    stroke-width="1.7"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <strong>Drop your sketch here</strong
+              ><span>or <u>browse files</u> to upload</span
+              ><small>JPG, PNG or BMP · up to 8 MB</small>
+            </div>
+            <img id="sketch-preview" alt="Your selected sketch" hidden /><span
+              class="replace-hint"
+              hidden
+              >Click to replace sketch</span
+            >
+          </label>
+          <div class="sample-line">
+            <span>No sketch handy?</span
+            ><button class="text-button" id="sample-button" type="button">
+              Try a sample <span aria-hidden="true">↗</span>
+            </button>
+          </div>
+          <div id="query-label" class="query-label" hidden></div>
+          <div class="divider"></div>
+          <div class="section-heading">
+            <span class="step-number">02</span>
+            <div>
+              <h2>Choose a photo gallery</h2>
+              <p>Where should we look?</p>
+            </div>
+          </div>
+          <div
+            class="gallery-options"
+            role="group"
+            aria-label="Photo gallery source"
+          >
+            <label class="gallery-choice"
+              ><input
+                type="radio"
+                name="gallery-mode"
+                value="dataset"
+                checked /><span
+                ><strong>Built-in gallery</strong
+                ><small id="gallery-description"
+                  >Held-out CUHK face photos</small
+                ></span
+              ><span class="radio-mark"></span
+            ></label>
+            <label class="gallery-choice"
+              ><input type="radio" name="gallery-mode" value="uploaded" /><span
+                ><strong>My own photos</strong
+                ><small>Upload the people to search through</small></span
+              ><span class="radio-mark"></span
+            ></label>
+          </div>
+          <div
+            id="gallery-preview"
+            class="gallery-preview"
+            aria-label="Built-in gallery preview"
+          ></div>
+          <div id="custom-gallery" hidden>
+            <label class="gallery-upload" for="gallery-files"
+              ><svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 16V4m-4 4 4-4 4 4M4 16v4h16v-4"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                /></svg
+              ><span>Choose candidate photos</span
+              ><input
+                class="file-input"
+                id="gallery-files"
+                type="file"
+                accept="image/jpeg,image/png,image/bmp"
+                multiple
+            /></label>
+            <p id="gallery-count" class="file-help">
+              Up to 200 photos · 32 MB total
+            </p>
+            <div id="custom-thumbnails" class="custom-thumbnails"></div>
+          </div>
+          <button type="button" id="match-button" class="match-button" disabled>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle
+                cx="10.5"
+                cy="10.5"
+                r="6.5"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+              <path
+                d="m16 16 4.5 4.5"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              /></svg
+            ><span>Find matching faces</span
+            ><span class="button-arrow" aria-hidden="true">→</span>
+          </button>
+          <p class="privacy-note">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path
+                d="M4 7V5a4 4 0 0 1 8 0v2M3 7h10v7H3z"
+                stroke="currentColor"
+                stroke-width="1.1"
+              /></svg
+            >Your uploads aren’t kept after the search.
+          </p>
+          <p id="error-message" class="error-message" role="alert" hidden></p>
+        </div>
+        <div
+          class="results-panel"
+          aria-live="polite"
+          aria-busy="false"
+          id="results-panel"
+        >
+          <div class="results-header">
+            <div>
+              <p class="eyebrow">THE SHORTLIST</p>
+              <h2>Matching faces<span>.</span></h2>
+            </div>
+            <span id="results-count" class="result-label"
+              >AWAITING YOUR SKETCH</span
+            >
+          </div>
+          <div id="empty-results" class="empty-results">
+            <div class="face-outline">
+              <svg viewBox="0 0 100 110" fill="none" aria-hidden="true">
+                <path
+                  d="M25 40c0-25 50-25 50 0v22c0 21-14 32-25 32S25 83 25 62V40Z"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                />
+                <path
+                  d="M34 49h9m14 0h9M50 54v14h5M41 79q9 6 18 0"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M10 24V9h15m50 0h15v15M10 87v15h15m50 0h15V87"
+                  stroke="currentColor"
+                  stroke-width="1.2"
+                />
+              </svg>
+            </div>
+            <h3>Your shortlist starts here.</h3>
+            <p>
+              Add a sketch and choose your gallery.<br />We’ll bring the closest
+              faces into focus.
+            </p>
+            <span class="empty-caption"
+              >A SHARED REPRESENTATION. A CLOSER MATCH.</span
+            >
+          </div>
+          <div id="loading-results" class="loading-results" hidden>
+            <span class="spinner"></span>
+            <h3>Looking beyond the pencil lines…</h3>
+            <p>Comparing your sketch with the photo gallery.</p>
+          </div>
+          <div id="populated-results" hidden>
+            <div id="demo-ground-truth" class="ground-truth" hidden></div>
+            <div id="best-match"></div>
+            <div class="runner-heading">
+              <h3>More candidates</h3>
+              <span>ORDERED BY SIMILARITY</span>
+            </div>
+            <div id="other-matches" class="other-matches"></div>
+            <div class="results-footer">
+              <span id="search-meta"></span
+              ><button id="download-results" class="text-button" type="button">
+                Export results ↓
+              </button>
+            </div>
+          </div>
+          <div class="research-note">
+            <span class="note-icon" aria-hidden="true">i</span>
+            <p>
+              A research tool, not proof of identity. Results show visual
+              similarity within your gallery. The correct person’s photo must be
+              present to retrieve them.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works" class="how-it-works">
+        <div class="how-title">
+          <p class="eyebrow">A LITTLE CONTEXT</p>
+          <h2>Two mediums.<br />One search.</h2>
+        </div>
+        <div>
+          <span class="how-number">01 / INPUT</span>
+          <h3>Start with a sketch</h3>
+          <p>
+            Use a clear, tightly cropped drawing of one face, looking straight
+            ahead.
+          </p>
+        </div>
+        <div>
+          <span class="how-number">02 / COMPARE</span>
+          <h3>Look across the gallery</h3>
+          <p>
+            The model compares facial features across sketches and photographs.
+          </p>
+        </div>
+        <div>
+          <span class="how-number">03 / EXPLORE</span>
+          <h3>Review the shortlist</h3>
+          <p>
+            Inspect the closest candidates. Similarity scores aren’t identity
+            probabilities.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <span class="footer-brand">sketch2face.</span>
+      <p>
+        A college research project by Ipsita · Lovely Professional University
+      </p>
+      <span>Built & evaluated on the CUFS CUHK subset</span>
+    </footer>
+  </body>
+</html>
